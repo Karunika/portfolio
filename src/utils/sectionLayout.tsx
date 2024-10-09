@@ -15,15 +15,7 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
                     display: 'flex',
                     alignItems: 'center',
                     backgroundColor: odd ? '#eee' : '',
-                    // [theme.breakpoints.up(834)]: {
-                    //     flexDirection: 'row',
-                    //     gap: 6,
-                    // },
-                    // [theme.breakpoints.up(1199)]: {
-                    //     gap: 12,
-                    // },
                 }),
-                // reversed ? { flexDirection: 'column-reverse' } : { flexDirection: 'column' },
             ]}
         >
             <Element name={name} style={{ flex: 1 }}>
@@ -32,6 +24,8 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
                         px: 20,
                         py: 10,
                         flex: 1,
+                        display: 'flex',
+                        flexDirection: 'column',
                         ...sx
                     }}
                 >
