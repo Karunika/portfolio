@@ -37,7 +37,7 @@ interface IExperience {
 const experiences: IExperience[] = [
     {
         time: {
-            start: { month: 2, year: 2022 },
+            start: { month: 3, year: 2022 },
             end: { month: 12, year: 2022 }
         },
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE4_1aEWdkMwbedzb7SjD1SMUsCCIgEKivdA&s',
@@ -54,8 +54,8 @@ const experiences: IExperience[] = [
     },
     {
         time: {
-            start: { month: 2, year: 2022 },
-            end: { month: 12, year: 2022 }
+            start: { month: 1, year: 2022 },
+            end: { month: 3, year: 2022 }
         },
         logo: 'https://montrosesoftware.com/images/unique-images/PNG/preview.png',
         company: 'Montrose',
@@ -72,8 +72,8 @@ const experiences: IExperience[] = [
     },
     {
         time: {
-            start: { month: 2, year: 2022 },
-            end: { month: 12, year: 2022 }
+            start: { month: 6, year: 2021 },
+            end: { month: 12, year: 2021 }
         },
         logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQG9c8WtnnV6eg/company-logo_200_200/company-logo_200_200/0/1630549697252?e=1736380800&v=beta&t=7CyWn3oJQFje0FhyMiPhF3pdW9Y6N4moPBNDeFW_1I4',
         company: 'Comitium',
@@ -81,12 +81,10 @@ const experiences: IExperience[] = [
         mode: 'remote',
         location: 'Birmingham, U.K.',
         description: [
-            `Developed Internal Web Applications that boosted the efficiency of the workflow in the company many manifolds.`,
-            `Provided mentorship to interns.`,
-            `Sole frontend developer besides an intern, delivered features in a timely manner with quality and adherence to wireframes.`,
-            `Actively participated in SCRUM meetings, contributing to agile project management and iterative development cycles.`
+            `Enhanced front-end in Vue.js, reducing development time by 15%.`,
+            `Praised for communication, coding practices, and Git proficiency.`,
         ],
-        tools: [`VueJs`, `Django`, `TailwindCSS`, `GraphQL`]
+        tools: [`VueJs`, `CSS`, `Jira`]
     },
 ]
 
