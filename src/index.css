@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  margin-bottom: 3rem !important;
+  position: relative;
+  width: max-content;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60%;
+  height: 1px;
+  margin-top: 10px;
+  background-color: #4393E4;
+}
+
+svg {
+	font-family: 'Russo One', sans-serif;
+}
+
+svg text {
+	text-transform: uppercase;
+	animation: stroke 10s;
+  animation-fill-mode: forwards;
+	stroke-width: 1;
+	stroke: #365fa0;
+	font-size: 120px;
+}
+
+@keyframes stroke {
+	0%   {
+		fill: #edf5fd00;
+		stroke: #edf5fdff;
+		stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 1;
+	}
+	70%  {
+		fill: #edf5fd00;
+		stroke: #edf5fdff;
+  }
+	80%  {
+		fill: #edf5fd00;
+		stroke: #edf5fdff;
+    stroke-width: 1;
+  }
+	100% {
+		fill: #edf5fdff;
+    stroke: rgba(54,95,160,0); 
+		stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+	}
+}
