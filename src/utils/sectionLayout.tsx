@@ -21,7 +21,7 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
             <Element name={name} style={{ flex: 1 }}>
                 <Box
                     sx={{
-                        px: 20,
+                        px: 32,
                         py: 10,
                         flex: 1,
                         display: 'flex',

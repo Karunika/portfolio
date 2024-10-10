@@ -47,7 +47,7 @@ const experiences: IExperience[] = [
         location: 'Warsaw Spire, Warsaw',
         description: [
             `Revamped 10-year-old Content Creation tool "WebAuthor", used on over 100K+ Commercial LFD panels globally, for the MagicINFO 9 project.`,
-            `Develop, test and deploy features ensuring  cross-platform compatibility and conformance to the design specifications.`,
+            `Developed, tested and deployed features ensuring  cross-platform compatibility and conformance to the design specifications.`,
             `Led development of the "Supernova" monorepo widget library, focused on Social Media Cards using 3rd party APIs.`
         ],
         tools: [`Angular 2+`, `ReactJs`, `Jest`, `Cypress`, `StoryBook`, `fp-ts`, `RxJs`, `Git`, `Jira`]
