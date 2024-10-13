@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionLayout from '../../utils/sectionLayout'
 import Stepper from '@mui/joy/Stepper';
 import Step from '@mui/joy/Step';
@@ -6,10 +5,12 @@ import StepIndicator, { stepIndicatorClasses } from '@mui/joy/StepIndicator';
 import List from '@mui/joy/List';
 import ListItem from '@mui/joy/ListItem';
 import Chip from '@mui/joy/Chip';
-import Card from '@mui/joy/Card';
 import Typography from '@mui/joy/Typography';
-import { Box, ListItemContent, ListItemDecorator, Stack } from '@mui/joy';
+import ListItemContent from '@mui/joy/ListItemContent';
+import ListItemDecorator from '@mui/joy/ListItemDecorator';
+import Stack from '@mui/joy/Stack';
 import East from '@mui/icons-material/East';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
@@ -91,7 +92,9 @@ const experiences: IExperience[] = [
 const Experience = () => {
     return (
         <SectionLayout odd fullHeight col name='experience'>
-            <Typography level='h1'>Work Experience</Typography>
+            <ScrollAnimation animateIn='fadeInLeft' animateOnce={true}>
+                <Typography level='h1'>Work Experience</Typography>
+            </ScrollAnimation>
             <Stepper orientation="vertical" sx={{
                 '--StepIndicator-size': '6rem',
                 '--Step-connectorRadius': '1rem',
@@ -109,29 +112,43 @@ const Experience = () => {
                 {experiences.map(({ logo, company, title, mode, description, tools, location, time: { start, end } }, i) => (
                     // @ts-ignore
                     <Step id={i} indicator={
-                        <StepIndicator>
-                            <img src={logo} />
-                        </StepIndicator>
+                        <ScrollAnimation animateIn='fadeInLeft' animateOnce>
+                            <StepIndicator>
+                                <img src={logo} />
+                            </StepIndicator>
+                        </ScrollAnimation>
                     }>
-                        <Stack sx={{ ml: 4 }}>
-                            <Typography level='h3'>{company}</Typography>
-                            <Stack direction='row' spacing={1} sx={{ mb: 1 }}>
-                                <Typography level='h4'>{title}</Typography>
-                                <Chip variant='outlined' size='sm'>{mode}</Chip>
+                        <ScrollAnimation animateIn='fadeIn' animateOnce>
+                            <Stack sx={{ ml: 4 }}>
+                                <Typography level='h3'>{company}</Typography>
+                                <Stack direction='row' spacing={1} sx={{ mb: 1 }}>
+                                    <Typography level='h4'>{title}</Typography>
+                                    <Chip variant='outlined' size='sm'>{mode}</Chip>
+                                </Stack>
+                                <Typography level='body-sm'>{`${mS[start.month - 1]} ${start.year} - ${mS[end.month - 1]} ${end.year} | ${location}`}</Typography>
                             </Stack>
-                            <Typography level='body-sm'>{`${mS[start.month - 1]} ${start.year} - ${mS[end.month - 1]} ${end.year} | ${location}`}</Typography>
-                        </Stack>
+                        </ScrollAnimation>
                         <Stack sx={{ ml: 2 }}>
                             <List>
                                 {description.map((point, i) => (
                                     // @ts-ignore
                                     <ListItem id={i} sx={{ alignItems: 'flex-start' }}>
-                                        <ListItemDecorator><East fontSize='small' /></ListItemDecorator>
-                                        <ListItemContent>{point}</ListItemContent>
+                                        <ListItemDecorator>
+                                            <ScrollAnimation animateIn='fadeIn' animateOnce>
+                                                <East fontSize='small' />
+                                            </ScrollAnimation>
+                                        </ListItemDecorator>
+                                        <ListItemContent>
+                                            <ScrollAnimation animateIn='fadeIn' animateOnce>
+                                                {point}
+                                            </ScrollAnimation>
+                                        </ListItemContent>
                                     </ListItem>
                                 ))}
                                 <ListItem>
-                                    <b>Tools: </b>{tools.join(', ')}
+                                    <ScrollAnimation animateIn='fadeIn' animateOnce>
+                                        <b>Tools: </b>{tools.join(', ')}
+                                    </ScrollAnimation>
                                 </ListItem>
                             </List>
                         </Stack>

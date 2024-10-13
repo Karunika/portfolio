@@ -1,8 +1,6 @@
-import React from 'react'
 import Box from '@mui/joy/Box';
 import Container from '@mui/joy/Container';
 import { Element } from 'react-scroll';
-
 
 const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = false, sx }: any) => {
     return (
@@ -29,7 +27,7 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
                         ...sx
                     }}
                 >
-                    {children}
+                        {children}
                 </Box>
             </Element>
         </Container>

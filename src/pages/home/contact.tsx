@@ -6,20 +6,39 @@ import ListItemContent from '@mui/joy/ListItemContent';
 import ListItemDecorator from '@mui/joy/ListItemDecorator';
 import EmailOutlined from '@mui/icons-material/EmailOutlined';
 import Phone from '@mui/icons-material/Phone';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Contact = () => {
 
     return (
         <SectionLayout odd name='contact'>
-            <Typography level='h1'>Let's get in touch!</Typography>
+            <ScrollAnimation animateIn='fadeInLeft' animateOnce>
+                <Typography level='h1'>Let's get in touch!</Typography>
+            </ScrollAnimation>
             <List>
                 <ListItem>
-                    <ListItemDecorator><EmailOutlined /></ListItemDecorator>
-                    <ListItemContent>karunikatrip@gmail.com</ListItemContent>
+                    <ListItemDecorator>
+                        <ScrollAnimation animateIn='fadeIn' animateOnce>
+                            <EmailOutlined />
+                        </ScrollAnimation>
+                    </ListItemDecorator>
+                    <ListItemContent>
+                        <ScrollAnimation animateIn='fadeInRight' animateOnce>
+                            karunikatrip@gmail.com
+                        </ScrollAnimation>
+                    </ListItemContent>
                 </ListItem>
                 <ListItem>
-                    <ListItemDecorator><Phone /></ListItemDecorator>
-                    <ListItemContent>+48 501 503 727</ListItemContent>
+                    <ListItemDecorator>
+                        <ScrollAnimation animateIn='fadeIn' animateOnce>
+                            <Phone />
+                        </ScrollAnimation>
+                    </ListItemDecorator>
+                    <ListItemContent>
+                        <ScrollAnimation animateIn='fadeInRight' animateOnce>
+                            +48 501 503 727
+                        </ScrollAnimation>
+                    </ListItemContent>
                 </ListItem>
             </List>
         </SectionLayout>

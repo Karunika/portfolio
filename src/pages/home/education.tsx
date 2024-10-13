@@ -2,12 +2,13 @@ import React from 'react'
 import SectionLayout from '../../utils/sectionLayout'
 import Stepper from '@mui/joy/Stepper';
 import Step from '@mui/joy/Step';
-import StepIndicator, { stepIndicatorClasses } from '@mui/joy/StepIndicator';
+import StepIndicator from '@mui/joy/StepIndicator';
 import Card from '@mui/joy/Card';
 import CardCover from '@mui/joy/CardCover';
 import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
 import Stack from '@mui/joy/Stack'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 interface IEducation {
     institute: string,
@@ -59,7 +60,9 @@ const educations: IEducation[] = [
 const Education = () => {
     return (
         <SectionLayout name='education'>
-            <Typography level='h1'>Education</Typography>
+            <ScrollAnimation animateIn='fadeInLeft' animateOnce>
+                <Typography level='h1'>Education</Typography>
+            </ScrollAnimation>
 
             <Stack direction='row-reverse' spacing={2} sx={{ justifyContent: 'flex-end' }}>
                 <Stepper orientation="vertical" sx={{
@@ -71,11 +74,15 @@ const Education = () => {
                         // @ts-ignore
                         <Step id={i}>
                             <Stack>
-                                <Typography level='h3'>{`${institute}, ${location}`}</Typography>
+                                <ScrollAnimation animateIn='fadeIn' animateOnce>
+                                    <Typography level='h3'>{`${institute}, ${location}`}</Typography>
+                                </ScrollAnimation>
                             </Stack>
                             <Stack>
-                                {degree && <Typography level='title-md'>{degree}</Typography>}
-                                <Typography level='body-sm'>{`${start} - ${end}`}</Typography>
+                                <ScrollAnimation animateIn='fadeIn' animateOnce>
+                                    {degree && <Typography level='title-md'>{degree}</Typography>}
+                                    <Typography level='body-sm'>{`${start} - ${end}`}</Typography>
+                                </ScrollAnimation>
                             </Stack>
                         </Step>
                     )}
@@ -85,34 +92,37 @@ const Education = () => {
                     }></Step>
                 </Stepper>
 
-                <Card component="li" sx={{
-                    maxWidth: 200,
-                    ['& > div:not(:first-child)']: {
-                        opacity: 0,
-                        transition: '0.4s ease'
-                    },
-                    ['&:hover > div:not(:first-child)']: {
-                        opacity: 1
-                    }
-                }}>
-                    <CardCover>
-                        <img src={require('../../assets/childhood.jpg')} />
-                    </CardCover>
-                    <CardCover
-                        sx={{
-                            background:
-                                'linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 200px), linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0) 300px)',
-                        }}
-                    />
-                    <CardContent sx={{ justifyContent: 'flex-end' }}>
-                        <Typography
-                            level="body-xs"
-                            textColor="neutral.300"
-                        >
-                            Mom captured a sweet moment of me and my brother heading to school. Grateful for the little moments :)
-                        </Typography>
-                    </CardContent>
-                </Card>
+                <ScrollAnimation animateIn='fadeInLeft' animateOnce>
+                    <Card component="li" sx={{
+                        height: '100%',
+                        maxWidth: 200,
+                        ['& > div:not(:first-child)']: {
+                            opacity: 0,
+                            transition: '0.4s ease'
+                        },
+                        ['&:hover > div:not(:first-child)']: {
+                            opacity: 1
+                        }
+                    }}>
+                        <CardCover>
+                            <img src={require('../../assets/childhood.jpg')} />
+                        </CardCover>
+                        <CardCover
+                            sx={{
+                                background:
+                                    'linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 200px), linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0) 300px)',
+                            }}
+                        />
+                        <CardContent sx={{ justifyContent: 'flex-end' }}>
+                            <Typography
+                                level="body-xs"
+                                textColor="neutral.300"
+                            >
+                                Mom captured a sweet moment of me and my brother heading to school. Grateful for the little moments :)
+                            </Typography>
+                        </CardContent>
+                    </Card>
+                </ScrollAnimation>
             </Stack>
 
 

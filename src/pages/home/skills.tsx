@@ -1,7 +1,13 @@
 import SectionLayout from '../../utils/sectionLayout'
 import Typography from '@mui/joy/Typography'
-import { Card, Chip, List, ListItem, Stack, Box } from '@mui/joy'
+import Card from '@mui/joy/Card'
+import List from '@mui/joy/List';
+import ListItem from '@mui/joy/ListItem';
+import Chip from '@mui/joy/Chip';
+import Box from '@mui/joy/Box';
+import Stack from '@mui/joy/Stack';
 import Divider from '@mui/joy/Divider'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const skills: { [key: string]: string | { [key: string]: string } } = {
     programming: {
@@ -33,42 +39,46 @@ const SkillChips = ({ title = '', skills }: { title?: string, skills: string }) 
 const Skills = () => {
     return (
         <SectionLayout odd name='skills'>
-            <Typography level='h1'>Skills</Typography>
+            <ScrollAnimation animateIn='fadeInLeft' animateOnce>
+                <Typography level='h1'>Skills</Typography>
+            </ScrollAnimation>
             <Stack direction='row' >
-                <Card>
-                    {Object.keys(skills).map((title: string) => (
-                        <Stack sx={{ position: 'relative' }}>
-                            <Box sx={(theme) => ({
-                                position: 'sticky',
-                                top: 10,
-                                backgroundColor: theme.vars.palette.neutral[50],
-                                zIndex: 2,
-                                '&::before': {
-                                    width: '100%',
-                                    content: '""',
-                                    height: 10,
+                <ScrollAnimation animateIn='fadeInLeft' animateOnce>
+                    <Card>
+                        {Object.keys(skills).map((title: string) => (
+                            <Stack sx={{ position: 'relative' }}>
+                                <Box sx={(theme) => ({
+                                    position: 'sticky',
+                                    top: 10,
                                     backgroundColor: theme.vars.palette.neutral[50],
                                     zIndex: 2,
-                                    display: 'block',
-                                    position: 'absolute',
-                                    top: -10,
-                                }
-                            })}>
-                                <Typography level='title-lg'>{title.replace(/^./, (n) => n.toUpperCase())}</Typography>
-                                <Divider sx={{ mt: 1 }} />
-                            </Box>
-                            {typeof skills[title] === 'string' ?
-                                <SkillChips skills={skills[title] as string} />
-                                : Object.keys(skills[title] as { [key: string]: string }).map((subtitle: string) => (
-                                    <SkillChips title={subtitle} skills={(skills[title] as { [key: string]: string })[subtitle]} />
-                                ))}
-                        </Stack>
-                    ))}
-                </Card>
+                                    '&::before': {
+                                        width: '100%',
+                                        content: '""',
+                                        height: 10,
+                                        backgroundColor: theme.vars.palette.neutral[50],
+                                        zIndex: 2,
+                                        display: 'block',
+                                        position: 'absolute',
+                                        top: -10,
+                                    }
+                                })}>
+                                    <Typography level='title-lg'>{title.replace(/^./, (n) => n.toUpperCase())}</Typography>
+                                    <Divider sx={{ mt: 1 }} />
+                                </Box>
+                                {typeof skills[title] === 'string' ?
+                                    <SkillChips skills={skills[title] as string} />
+                                    : Object.keys(skills[title] as { [key: string]: string }).map((subtitle: string) => (
+                                        <SkillChips title={subtitle} skills={(skills[title] as { [key: string]: string })[subtitle]} />
+                                    ))}
+                            </Stack>
+                        ))}
+                    </Card>
+                </ScrollAnimation>
                 <Box sx={{ position: 'relative', flex: 1 }}>
 
-                    <Card sx={{ ml: 4, position: 'sticky', top: 10 }}>
-                        <>
+                    <ScrollAnimation animateIn='fadeInRight' animateOnce>
+                        <Card sx={{ ml: 4, position: 'sticky', top: 10 }}>
                             <Typography level='title-lg'>Key Soft Skills</Typography>
                             <Divider />
                             <List>
@@ -89,8 +99,8 @@ const Skills = () => {
                                 <ListItem>Object Oriented Programming</ListItem>
                                 <ListItem>Data Structures and Algorithms</ListItem>
                             </List>
-                        </>
-                    </Card>
+                        </Card>
+                    </ScrollAnimation>
                 </Box>
             </Stack>
         </SectionLayout>

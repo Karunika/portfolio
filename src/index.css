@@ -34,7 +34,7 @@ svg {
 
 svg text {
 	text-transform: uppercase;
-	animation: stroke 10s;
+	animation: stroke 4s;
   animation-fill-mode: forwards;
 	stroke-width: 1;
 	stroke: #365fa0;

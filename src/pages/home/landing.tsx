@@ -83,6 +83,10 @@ const Landing = () => {
 
                 <Typography level='h2' sx={{
                     color: theme.vars.palette.primary[200],
+                    animation: 'fadeIn',
+                    animationDuration: '4s',
+                    animationDelay: '2s',
+                    animationFillMode: 'both'
                 }}>
                     Fullstack Developer
                 </Typography>
