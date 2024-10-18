@@ -64,7 +64,15 @@ const Education = () => {
                 <Typography level='h1'>Education</Typography>
             </ScrollAnimation>
 
-            <Stack direction='row-reverse' spacing={2} sx={{ justifyContent: 'flex-end' }}>
+            <Stack sx={[
+                (theme) => ({
+                    flexDirection: 'row-reverse',
+
+                    [theme.breakpoints.down(600)]: {
+                        flexDirection: 'column-reverse',
+                    },
+                })
+            ]}>
                 <Stepper orientation="vertical" sx={{
                     '--StepIndicator-size': '2rem',
                     '--Step-connectorRadius': '1rem',
@@ -93,17 +101,24 @@ const Education = () => {
                 </Stepper>
 
                 <ScrollAnimation animateIn='fadeInLeft' animateOnce>
-                    <Card component="li" sx={{
-                        height: '100%',
-                        maxWidth: 200,
-                        ['& > div:not(:first-child)']: {
-                            opacity: 0,
-                            transition: '0.4s ease'
-                        },
-                        ['&:hover > div:not(:first-child)']: {
-                            opacity: 1
-                        }
-                    }}>
+                    <Card component="li" sx={[
+                        (theme) => ({
+                            mr: 2,
+                            minHeight: '400px',
+                            height: '90%',
+                            maxWidth: 400,
+                            '& > div:not(:first-of-type)': {
+                                opacity: 0,
+                                transition: '0.4s ease'
+                            },
+                            '&:hover > div:not(:first-of-type)': {
+                                opacity: 1
+                            },
+                            [theme.breakpoints.down(700)]: {
+                                mb: 4
+                            },
+                        })
+                    ]}>
                         <CardCover>
                             <img src={require('../../assets/childhood.jpg')} />
                         </CardCover>
@@ -126,7 +141,7 @@ const Education = () => {
             </Stack>
 
 
-        </SectionLayout>
+        </SectionLayout >
     )
 }
 

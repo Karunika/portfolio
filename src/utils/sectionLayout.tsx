@@ -18,16 +18,30 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
         >
             <Element name={name} style={{ flex: 1 }}>
                 <Box
-                    sx={{
-                        px: 32,
-                        py: 10,
-                        flex: 1,
-                        display: 'flex',
-                        flexDirection: 'column',
-                        ...sx
-                    }}
+                    sx={[
+                        (theme) => ({
+                            px: 32,
+                            py: 10,
+                            flex: 1,
+                            display: 'flex',
+                            flexDirection: 'column',
+                            [theme.breakpoints.down(1200)]: {
+                                px: 16
+                            },
+                            [theme.breakpoints.down(1000)]: {
+                                px: 10
+                            },
+                            [theme.breakpoints.down(833)]: {
+                                px: 6,
+                            },
+                            [theme.breakpoints.down(600)]: {
+                                px: 4,
+                            },
+                            ...sx
+                        })
+                    ]}
                 >
-                        {children}
+                    {children}
                 </Box>
             </Element>
         </Container>

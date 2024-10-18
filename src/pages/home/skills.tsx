@@ -8,6 +8,7 @@ import Box from '@mui/joy/Box';
 import Stack from '@mui/joy/Stack';
 import Divider from '@mui/joy/Divider'
 import ScrollAnimation from 'react-animate-on-scroll';
+import { useTheme } from '@emotion/react';
 
 const skills: { [key: string]: string | { [key: string]: string } } = {
     programming: {
@@ -29,7 +30,7 @@ const SkillChips = ({ title = '', skills }: { title?: string, skills: string }) 
     return (
         <Stack>
             {title && <Typography level='body-xs' sx={{ mt: 2 }}>{title.toUpperCase()}</Typography>}
-            <Stack direction='row' spacing={1} sx={{ mt: 1 }}>
+            <Stack direction='row' spacing={1} sx={{ mt: 1, flexWrap: 'wrap' }}>
                 {skills.split(', ').map((n: string, i: number) => <Chip variant='outlined' size='sm'>{n}</Chip>)}
             </Stack>
         </Stack>
@@ -37,16 +38,22 @@ const SkillChips = ({ title = '', skills }: { title?: string, skills: string }) 
 }
 
 const Skills = () => {
+    const theme = useTheme()
     return (
         <SectionLayout odd name='skills'>
             <ScrollAnimation animateIn='fadeInLeft' animateOnce>
                 <Typography level='h1'>Skills</Typography>
             </ScrollAnimation>
-            <Stack direction='row' >
-                <ScrollAnimation animateIn='fadeInLeft' animateOnce>
-                    <Card>
+            <Stack sx={[(theme) => ({
+                flexDirection: 'row',
+                [theme.breakpoints.down(800)]: {
+                    flexDirection: 'column',
+                }
+            })]}>
+                <ScrollAnimation animateIn='fadeInLeft' animateOnce class='skills'>
+                    <Card sx={{ position: 'relative' }}>
                         {Object.keys(skills).map((title: string) => (
-                            <Stack sx={{ position: 'relative' }}>
+                            <Stack>
                                 <Box sx={(theme) => ({
                                     position: 'sticky',
                                     top: 10,
@@ -75,30 +82,42 @@ const Skills = () => {
                         ))}
                     </Card>
                 </ScrollAnimation>
-                <Box sx={{ position: 'relative', flex: 1 }}>
+                <Box sx={{ flex: 1 }}>
 
                     <ScrollAnimation animateIn='fadeInRight' animateOnce>
-                        <Card sx={{ ml: 4, position: 'sticky', top: 10 }}>
-                            <Typography level='title-lg'>Key Soft Skills</Typography>
-                            <Divider />
-                            <List>
-                                <ListItem>Native level proficiency in English</ListItem>
-                                <ListItem>Effective Communication and Team Collaboration</ListItem>
-                                <ListItem>Customer Relations</ListItem>
-                                <ListItem>Inclusivity and Diversity Proponent</ListItem>
-                            </List>
-                            <Typography level='title-lg'>Key Technical Skills</Typography>
-                            <Divider />
-                            <List>
-                                <ListItem>Single Page Applications</ListItem>
-                                <ListItem>Progressive Web Applications</ListItem>
-                                <ListItem>Quality Assurance and Testing</ListItem>
-                                <ListItem>RESTful API Construction and Integration</ListItem>
-                                <ListItem>Entity Relationship Modelling</ListItem>
-                                <ListItem>Functional Programming</ListItem>
-                                <ListItem>Object Oriented Programming</ListItem>
-                                <ListItem>Data Structures and Algorithms</ListItem>
-                            </List>
+                        <Card sx={[
+                            (theme) => ({
+                                mt: 0,
+                                ml: 4,
+
+                                [theme.breakpoints.down(800)]: {
+                                    ml: 0,
+                                    mt: 4
+                                }
+                            })
+                        ]}>
+                            <>
+                                <Typography level='title-lg'>Key Soft Skills</Typography>
+                                <Divider />
+                                <List>
+                                    <ListItem>Native level proficiency in English</ListItem>
+                                    <ListItem>Effective Communication and Team Collaboration</ListItem>
+                                    <ListItem>Customer Relations</ListItem>
+                                    <ListItem>Inclusivity and Diversity Proponent</ListItem>
+                                </List>
+                                <Typography level='title-lg'>Key Technical Skills</Typography>
+                                <Divider />
+                                <List>
+                                    <ListItem>Single Page Applications</ListItem>
+                                    <ListItem>Progressive Web Applications</ListItem>
+                                    <ListItem>Quality Assurance and Testing</ListItem>
+                                    <ListItem>RESTful API Construction and Integration</ListItem>
+                                    <ListItem>Entity Relationship Modelling</ListItem>
+                                    <ListItem>Functional Programming</ListItem>
+                                    <ListItem>Object Oriented Programming</ListItem>
+                                    <ListItem>Data Structures and Algorithms</ListItem>
+                                </List>
+                            </>
                         </Card>
                     </ScrollAnimation>
                 </Box>
