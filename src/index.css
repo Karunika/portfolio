@@ -76,3 +76,10 @@ svg text {
     maxWidth: 100%;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .construction {
+    margin-top: 100px;
+  }
+}
+
