@@ -35,7 +35,10 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
                                 px: 6,
                             },
                             [theme.breakpoints.down(600)]: {
-                                px: 4,
+                                px: 2,
+                            },
+                            [theme.breakpoints.down(400)]: {
+                                px: 0,
                             },
                             ...sx
                         })
