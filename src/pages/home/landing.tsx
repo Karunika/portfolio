@@ -1,14 +1,11 @@
-import { Button, Divider, Stack } from '@mui/joy';
+import { Button, Divider } from '@mui/joy';
 import Typography from '@mui/joy/Typography';
 import { Parallax } from 'react-parallax';
-import Box from '@mui/joy/Box';
-import List from '@mui/joy/List';
-import ListDivider from '@mui/joy/ListDivider';
-import ListItem from '@mui/joy/ListItem';
-import ListItemButton from '@mui/joy/ListItemButton';
 import { scroller } from 'react-scroll';
 import ExpandMoreOutlined from '@mui/icons-material/ExpandMoreOutlined';
 import { useTheme } from '@mui/joy/styles';
+import Nav from './components/nav'
+import SideNav from './components/sideNav';
 
 const Landing = () => {
     const theme = useTheme();
@@ -30,44 +27,9 @@ const Landing = () => {
                 flexDirection: 'column'
 
             }}>
-                <Stack sx={{
-                    position: 'absolute',
-                    top: 0,
-                    borderBottomRightRadius: 6,
-                    borderBottomLeftRadius: 6,
-                    overflow: 'hidden',
-                    zIndex: 50
-                }}>
-                    <Box
-                        component="nav"
-                        aria-label="My site"
-                        sx={{
-                            flexGrow: 1,
-                            p: 1,
-                            backgroundColor: '#dcecfaff'
-                        }}
-                    >
-                        <List role="menubar" orientation="horizontal">
-                            {['about', 'experience', 'education', 'skills', 'blogs', 'contact'].map((section, i) => (
-                                <>
-                                    {i !== 0 && <ListDivider />}
-                                    <ListItem role="none">
-                                        <ListItemButton
-                                            role="menuitem"
-                                            component="a"
-                                            onClick={() => scroller.scrollTo(section, {
-                                                duration: 500 * (i + 1),
-                                                smooth: true,
-                                            })}
-                                        >
-                                            {section.replace(/^./, n => n.toUpperCase())}
-                                        </ListItemButton>
-                                    </ListItem>
-                                </>
-                            ))}
-                        </List>
-                    </Box>
-                </Stack>
+                <Nav />
+                <SideNav />
+
                 <svg viewBox="0 0 1320 120">
                     <text x="50%" y="50%" dy=".35em" text-anchor="middle">
                         Karunika
@@ -98,7 +60,11 @@ const Landing = () => {
                         bottom: 40,
                         position: 'absolute',
                         borderRadius: 20,
-                        color: theme.vars.palette.primary[50]
+                        color: theme.vars.palette.primary[50],
+
+                        '&:hover': {
+                            backgroundColor: '#ffffff44',
+                        }
                     }}
                     onClick={() => scroller.scrollTo('about', {
                         duration: 1000,
