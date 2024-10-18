@@ -95,10 +95,13 @@ const Experience = () => {
             <ScrollAnimation animateIn='fadeInLeft' animateOnce={true}>
                 <Typography level='h1'>Work Experience</Typography>
             </ScrollAnimation>
-            <Stepper orientation="vertical" sx={{
+            <Stepper orientation="vertical" sx={(theme) => ({
                 '--StepIndicator-size': '6rem',
                 '--Step-connectorRadius': '1rem',
                 '--Step-connectorThickness': '2px',
+                [theme.breakpoints.down(800)]: {
+                    '--StepIndicator-size': '4rem',
+                },
                 [`.${stepIndicatorClasses.root}`]: {
                     [`& img`]: {
                         height: '100%',
@@ -108,7 +111,7 @@ const Experience = () => {
                     borderColor: '#fff',
                     // boxShadow: `0 0 0 1px ${theme.vars.palette.primary[500]}`,
                 }
-            }}>
+            })}>
                 {experiences.map(({ logo, company, title, mode, description, tools, location, time: { start, end } }, i) => (
                     // @ts-ignore
                     <Step id={i} indicator={
@@ -119,16 +122,26 @@ const Experience = () => {
                         </ScrollAnimation>
                     }>
                         <ScrollAnimation animateIn='fadeIn' animateOnce>
-                            <Stack sx={{ ml: 4 }}>
+                            <Stack sx={(theme) => ({
+                                ml: 4,
+                                [theme.breakpoints.down(800)]: {
+                                    ml: 2
+                                }
+                            })}>
                                 <Typography level='h3'>{company}</Typography>
                                 <Stack direction='row' spacing={1} sx={{ mb: 1 }}>
                                     <Typography level='h4'>{title}</Typography>
-                                    <Chip variant='outlined' size='sm'>{mode}</Chip>
+                                    <Chip variant='outlined' size='sm' sx={{ alignSelf: 'center' }}>{mode}</Chip>
                                 </Stack>
                                 <Typography level='body-sm'>{`${mS[start.month - 1]} ${start.year} - ${mS[end.month - 1]} ${end.year} | ${location}`}</Typography>
                             </Stack>
                         </ScrollAnimation>
-                        <Stack sx={{ ml: 2 }}>
+                        <Stack sx={(theme) => ({
+                            ml: 2,
+                            [theme.breakpoints.down(800)]: {
+                                ml: 0
+                            }
+                        })}>
                             <List>
                                 {description.map((point, i) => (
                                     // @ts-ignore
@@ -160,7 +173,7 @@ const Experience = () => {
                 }></Step>
             </Stepper>
 
-        </SectionLayout>
+        </SectionLayout >
     )
 }
 
