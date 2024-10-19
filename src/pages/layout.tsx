@@ -54,8 +54,9 @@ const SocialMedia = () => {
                 'codepen.io/karunika',
                 'instagram.com/karu_nika',
                 'discord.com/channels/@me/713431503610183760'
-            ].map((link) => (
-                <SocialIcon target="_blank" url={`https://${link}`} />
+            ].map((link, i) => (
+                // @ts-ignore
+                <SocialIcon key={i} target="_blank" url={`https://${link}`} />
             ))}
         </Stack>
 

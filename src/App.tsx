@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import Router from './router'
+import { BlogsContextProvider } from './context/blogs'
 
 const App = () => {
   useEffect(() => {
@@ -7,7 +8,9 @@ const App = () => {
   }, [])
 
   return (
-    <Router />
+    <BlogsContextProvider>
+      <Router />
+    </BlogsContextProvider>
   );
 }
 

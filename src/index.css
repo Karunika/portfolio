@@ -83,3 +83,15 @@ svg text {
   }
 }
 
+.md-container {
+  max-width: 100%;
+}
+
+.md-container > *{
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.anchor {
+  text-decoration: none !important;
+}
