@@ -67,7 +67,7 @@ const Layout = () => {
     return (
         <>
             <Outlet />
-            <SectionLayout>
+            <SectionLayout odd>
                 <Stack sx={[(theme) => ({
                     flexDirection: 'row',
                     alignItems: 'center',

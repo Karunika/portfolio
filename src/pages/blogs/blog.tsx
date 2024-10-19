@@ -1,4 +1,5 @@
 import { useContext, useEffect } from 'react';
+import Giscus from '@giscus/react';
 import List from '@mui/joy/List'
 import ListItem from '@mui/joy/ListItem'
 import Card from '@mui/joy/Card'
@@ -15,7 +16,7 @@ import SectionLayout from "../../utils/sectionLayout"
 import rehypeRaw from "rehype-raw"
 import rehypeSanitize from "rehype-sanitize"
 import Codeblock from "./components/codeblock"
-import { useLocation } from "react-router"
+import { useLocation, useParams } from "react-router"
 import { BlogsContext, BlogsContextType } from '../../context/blogs';
 import { animateScroll } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
@@ -23,7 +24,8 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 
 const Calc = () => {
-    let { state} = useLocation();
+    let { state } = useLocation();
+    let { id } = useParams();
     const context = useContext(BlogsContext);
     let navigate = useNavigate();
 
@@ -39,13 +41,28 @@ const Calc = () => {
     }
     const { items, loading, error } = context as BlogsContextType;
 
+    if (loading) {
+        return <SectionLayout fullHeight>loading...</SectionLayout>;
+    }
+    if (error) {
+        return <p>failed to load the blog</p>;
+    }
+
+    const markdown = state?.some ?? (
+        items.filter((item) =>
+            String(item?.sys?.id) === id
+        )?.map((item) =>
+            String(item?.fields?.data)
+        ) || ['']
+    )[0]
+
     const backClickHandler = () => {
-        navigate(state.prev || '/')
+        navigate(state?.prev || '/')
     }
 
     return (
         <SectionLayout fullHeight>
-            <Link sx={{mt: -4}} onClick={backClickHandler}>
+            <Link sx={{ mt: -4 }} onClick={backClickHandler}>
                 <ArrowBackIosIcon />
                 Go back
             </Link>
@@ -90,8 +107,23 @@ const Calc = () => {
                     },
                 }}
             >
-                {state?.some}
+                {markdown}
             </Markdown>
+            <Giscus
+                id="comments"
+                repo="Karunika/portfolio"
+                repoId="R_kgDOM95uww"
+                category="Announcements"
+                categoryId="DIC_kwDOF1L2fM4B-hVS"
+                mapping="pathname"
+                term="Welcome to @giscus/react component!"
+                reactionsEnabled="1"
+                emitMetadata="0"
+                inputPosition="top"
+                theme="light_protanopia"
+                lang="en"
+                loading="lazy"
+            />
         </SectionLayout>
     )
 
