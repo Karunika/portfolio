@@ -1,5 +1,5 @@
 import { Button, Container, Stack, Typography } from "@mui/joy"
-import { Outlet } from "react-router"
+import { Outlet, useLocation } from "react-router"
 import SectionLayout from "../utils/sectionLayout"
 import { animateScroll } from 'react-scroll';
 import { SocialIcon } from 'react-social-icons'
@@ -64,10 +64,12 @@ const SocialMedia = () => {
 }
 
 const Layout = () => {
+    const { pathname } = useLocation()
+
     return (
         <>
             <Outlet />
-            <SectionLayout odd>
+            <SectionLayout odd={pathname !== '/'}>
                 <Stack sx={[(theme) => ({
                     flexDirection: 'row',
                     alignItems: 'center',

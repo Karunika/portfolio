@@ -56,6 +56,10 @@ const Calc = () => {
         ) || ['']
     )[0]
 
+    if (!markdown) {
+        return <SectionLayout fullHeight>blog not found</SectionLayout>;
+    }
+
     const backClickHandler = () => {
         navigate(state?.prev || '/')
     }
