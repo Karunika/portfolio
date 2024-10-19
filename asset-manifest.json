@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8de4c5fe.css",
-    "main.js": "/portfolio/static/js/main.23ec6605.js",
-    "static/js/470.c2e68745.chunk.js": "/portfolio/static/js/470.c2e68745.chunk.js",
-    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/landing-bg.jpg": "/portfolio/static/media/landing-bg.cb32b6a49ffeba5d3681.jpg",
-    "static/media/childhood.jpg": "/portfolio/static/media/childhood.359c1dfd3b5815966786.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.8de4c5fe.css.map": "/portfolio/static/css/main.8de4c5fe.css.map",
-    "main.23ec6605.js.map": "/portfolio/static/js/main.23ec6605.js.map",
-    "470.c2e68745.chunk.js.map": "/portfolio/static/js/470.c2e68745.chunk.js.map",
-    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.css": "/karunika.work/static/css/main.8de4c5fe.css",
+    "main.js": "/karunika.work/static/js/main.e46d4c5b.js",
+    "static/js/470.c2e68745.chunk.js": "/karunika.work/static/js/470.c2e68745.chunk.js",
+    "static/js/453.ace21015.chunk.js": "/karunika.work/static/js/453.ace21015.chunk.js",
+    "static/media/landing-bg.jpg": "/karunika.work/static/media/landing-bg.cb32b6a49ffeba5d3681.jpg",
+    "static/media/childhood.jpg": "/karunika.work/static/media/childhood.359c1dfd3b5815966786.jpg",
+    "index.html": "/karunika.work/index.html",
+    "main.8de4c5fe.css.map": "/karunika.work/static/css/main.8de4c5fe.css.map",
+    "main.e46d4c5b.js.map": "/karunika.work/static/js/main.e46d4c5b.js.map",
+    "470.c2e68745.chunk.js.map": "/karunika.work/static/js/470.c2e68745.chunk.js.map",
+    "453.ace21015.chunk.js.map": "/karunika.work/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8de4c5fe.css",
-    "static/js/main.23ec6605.js"
+    "static/js/main.e46d4c5b.js"
   ]
 }
