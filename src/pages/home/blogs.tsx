@@ -1,15 +1,13 @@
-import { Stack, Typography } from "@mui/joy"
+import { Typography } from "@mui/joy"
 import SectionLayout from "../../utils/sectionLayout"
-import BlogList from '../blogs/blogList'
+import BlogList from '../../utils/blogList'
 
 const Blogs = () => {
     return (
-        <BlogList />
-        // <SectionLayout name='blogs'>
-        //     <Typography level='h1'>Blogs</Typography>
-
-
-        // </SectionLayout>
+        <SectionLayout name='blogs'>
+            <Typography level='h1'>Blogs</Typography>
+            <BlogList />
+        </SectionLayout>
     )
 }
 
