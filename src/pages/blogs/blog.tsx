@@ -131,10 +131,10 @@ const Calc = () => {
             </Markdown>
             <Giscus
                 id="comments"
-                repo="Karunika/portfolio"
+                repo="karunika/portfolio"
                 repoId="R_kgDOM95uww"
                 category="Announcements"
-                categoryId="DIC_kwDOF1L2fM4B-hVS"
+                categoryId="DIC_kwDOM95uw84CjgmB"
                 mapping="og:title"
                 term="Welcome to @giscus/react component!"
                 reactionsEnabled="1"
