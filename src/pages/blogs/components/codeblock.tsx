@@ -1,15 +1,20 @@
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import Card from '@mui/joy/Card'
 
-
-const Codeblock = ({ children, className, language = 'ts' }: any) => {
+const Codeblock = ({ children, ...props }: any) => {
+    const code = children.props.children
+    const lang = children.props.className || ''
 
     return (
         <SyntaxHighlighter
-            lineProps={{ style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' } }}
-            language="ts"
-            wrapLines={true}
+            language={lang.replace('langauge-', '')}
+            showLineNumbers={true}
+            PreTag={({ children }) =>
+                <Card sx={{ overflowX: 'scroll', width: '100%', boxSizing: 'border-box' }}>
+                    {children}
+                </Card>}
         >
-            {children}
+            {code}
         </SyntaxHighlighter>
     )
 

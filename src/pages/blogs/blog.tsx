@@ -9,8 +9,9 @@ import Divider from '@mui/joy/Divider'
 import Sheet from '@mui/joy/Sheet'
 import Table from '@mui/joy/Table'
 import Typography from '@mui/joy/Typography'
+import Chip from '@mui/joy/Chip';
+import Stack from '@mui/joy/Stack';
 import Markdown from 'react-markdown'
-import rehypeHighlight from 'rehype-highlight'
 import remarkGfm from 'remark-gfm'
 import SectionLayout from "../../utils/sectionLayout"
 import rehypeRaw from "rehype-raw"
@@ -21,7 +22,19 @@ import { BlogsContext, BlogsContextType } from '../../context/blogs';
 import { animateScroll } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import moment from 'moment';
 
+
+const formatTimestamp = (timestamp: string) => moment(timestamp).format('MMMM Do, YYYY h:mm A');
+
+const KeywordChips = ({ keywords = '' }: { keywords: string }) => {
+    return (
+        <Stack direction='row' spacing={1} sx={{ flexWrap: 'wrap', mt: 2 }}>
+            {/* @ts-ignore */}
+            {keywords.split(', ').map((n: string, i: number) => <Chip key={i} variant='outlined' size='sm'>{n}</Chip>)}
+        </Stack>
+    )
+}
 
 const Calc = () => {
     let { state } = useLocation();
@@ -64,15 +77,14 @@ const Calc = () => {
         return <p>failed to load the blog</p>;
     }
 
-    const markdown = state?.some ?? (
+    const item = state?.item || (
         items.filter((item) =>
             String(item?.sys?.id) === id
-        )?.map((item) =>
-            String(item?.fields?.data)
-        ) || ['']
+        ) || {}
     )[0]
 
-    if (!markdown) {
+
+    if (!item) {
         return <SectionLayout fullHeight>blog not found</SectionLayout>;
     }
 
@@ -86,11 +98,22 @@ const Calc = () => {
                 <ArrowBackIosIcon />
                 Go back
             </Link>
+            <Typography level='h1' sx={{
+                mt: 4,
+                mb: '1rem !important'
+            }}>
+                {item?.fields?.title}
+            </Typography>
+
+            <Typography sx={{ mt: 1 }} level='body-sm'>{formatTimestamp(item?.sys?.createdAt)}</Typography>
+
+            <KeywordChips keywords={item?.fields?.keywords} />
+
             <Markdown
-                rehypePlugins={[rehypeHighlight, remarkGfm, rehypeRaw, rehypeSanitize]}
+                rehypePlugins={[remarkGfm, rehypeRaw, rehypeSanitize]}
                 className='md-container'
                 components={{
-                    code: ({ children }) => <Codeblock>{children}</Codeblock>,
+                    pre: ({ children, ...props }) => <Codeblock {...props}>{children}</Codeblock>,
                     h1: ({ children }) => <Typography level='h2'>{children}</Typography>,
                     h2: ({ children }) => <Typography level='h3'>{children}</Typography>,
                     h3: ({ children }) => <Typography level='h4'>{children}</Typography>,
@@ -104,7 +127,8 @@ const Calc = () => {
                             return <Checkbox checked={rest.checked} disabled={rest.disabled} />
                         }
                     },
-                    ul: ({ children }) => <List> {children} </List>,
+                    ul: ({ children }) => <List marker="disc"> {children} </List>,
+                    ol: ({ children }) => <List marker="decimal"> {children} </List>,
                     li: ({ children }) => <ListItem>{children}</ListItem>,
                     p: ({ children }) => <Typography>{children}</Typography>,
                     table: ({ children }) => {
@@ -118,17 +142,40 @@ const Calc = () => {
                     },
                     blockquote: ({ children }) => {
                         return (
-                            <Card variant='soft' sx={{ py: 0.6 }}>
+                            <Card variant='soft' sx={{ py: 1, borderLeft: '2px solid #aaa', borderRadius: 1 }}>
                                 <Typography level='body-sm'>
                                     {children}
                                 </Typography>
                             </Card>
                         )
                     },
+                    img: ({ src, alt }) => {
+                        return (
+                            <div style={{
+                                width: '100%',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center'
+                            }}>
+                                <img
+                                    src={src}
+                                    loading="lazy"
+                                    alt={alt}
+                                    style={{
+                                        width: '90%',
+                                        margin: 'auto',
+                                        borderRadius: 10
+                                    }}
+                                />
+
+                            </div>
+                        )
+                    }
                 }}
             >
-                {markdown}
+                {item?.fields?.data}
             </Markdown>
+
             <Giscus
                 id="comments"
                 repo="karunika/portfolio"

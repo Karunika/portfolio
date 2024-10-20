@@ -42,7 +42,7 @@ const Layout = () => {
                     <Link to={'/blog/' + String(item?.sys?.id)}
                         style={{ flex: 1 }}
                         className='anchor'
-                        state={{ some: String(item?.fields?.data), prev: pathname }}
+                        state={{ item: item, prev: pathname }}
                     >
                         <Card sx={{ flex: 1 }}>
                             <Box

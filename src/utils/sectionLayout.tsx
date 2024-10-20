@@ -13,6 +13,9 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
                     display: 'flex',
                     alignItems: 'center',
                     backgroundColor: odd ? '#eee' : '',
+                    '& > div': {
+                        width: '100%'
+                    }
                 }),
             ]}
         >

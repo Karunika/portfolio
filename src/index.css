@@ -16,6 +16,8 @@ h1 {
   margin-bottom: 3rem !important;
   position: relative;
   width: max-content;
+  max-width: 100%;
+  text-wrap: wrap;
 }
 
 h1::after {
@@ -94,4 +96,10 @@ svg text {
 
 .anchor {
   text-decoration: none !important;
+}
+
+pre {
+  font-size: 0.8rem !important;
+  padding: 0.4rem !important;
+  overflow-y: scroll !important;
 }
