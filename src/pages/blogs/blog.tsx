@@ -30,6 +30,22 @@ const Calc = () => {
     let navigate = useNavigate();
 
     useEffect(() => {
+        // for giscus
+        const meta = document.createElement('meta')
+
+        if (id) {
+            meta.setAttribute('property', 'og:title')
+            meta.setAttribute('content', id)
+            document.head.appendChild(meta)
+        }
+
+        return () => {
+            document.head.removeChild(meta)
+        }
+    }, [id])
+
+    useEffect(() => {
+
         animateScroll.scrollToTop({
             duration: 500,
             smooth: true,
@@ -119,7 +135,7 @@ const Calc = () => {
                 repoId="R_kgDOM95uww"
                 category="Announcements"
                 categoryId="DIC_kwDOF1L2fM4B-hVS"
-                mapping="pathname"
+                mapping="og:title"
                 term="Welcome to @giscus/react component!"
                 reactionsEnabled="1"
                 emitMetadata="0"
