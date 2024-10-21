@@ -1,13 +1,6 @@
 import { useContext, useEffect } from 'react';
 import Giscus from '@giscus/react';
-import List from '@mui/joy/List'
-import ListItem from '@mui/joy/ListItem'
-import Card from '@mui/joy/Card'
-import Checkbox from '@mui/joy/Checkbox'
 import Link from '@mui/joy/Link'
-import Divider from '@mui/joy/Divider'
-import Sheet from '@mui/joy/Sheet'
-import Table from '@mui/joy/Table'
 import Typography from '@mui/joy/Typography'
 import Chip from '@mui/joy/Chip';
 import Stack from '@mui/joy/Stack';
@@ -16,13 +9,14 @@ import remarkGfm from 'remark-gfm'
 import SectionLayout from "../../utils/sectionLayout"
 import rehypeRaw from "rehype-raw"
 import rehypeSanitize from "rehype-sanitize"
-import Codeblock from "./components/codeblock"
 import { useLocation, useParams } from "react-router"
 import { BlogsContext, BlogsContextType } from '../../context/blogs';
 import { animateScroll } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import moment from 'moment';
+import useFootnotes from './hooks/useFootnotes'
+import mdComponentsConfig from './components/mdComponents.config'
 
 
 const formatTimestamp = (timestamp: string) => moment(timestamp).format('MMMM Do, YYYY h:mm A');
@@ -63,12 +57,12 @@ const Calc = () => {
             duration: 500,
             smooth: true,
         })
+
     }, [])
 
-    if (!context) {
-        return <p>Error: DataContext is not available.</p>;
-    }
     const { items, loading, error } = context as BlogsContextType;
+
+    useFootnotes(loading, id)
 
     if (loading) {
         return <SectionLayout fullHeight>loading...</SectionLayout>;
@@ -112,66 +106,7 @@ const Calc = () => {
             <Markdown
                 rehypePlugins={[remarkGfm, rehypeRaw, rehypeSanitize]}
                 className='md-container'
-                components={{
-                    pre: ({ children, ...props }) => <Codeblock {...props}>{children}</Codeblock>,
-                    h1: ({ children }) => <Typography level='h2'>{children}</Typography>,
-                    h2: ({ children }) => <Typography level='h3'>{children}</Typography>,
-                    h3: ({ children }) => <Typography level='h4'>{children}</Typography>,
-                    h4: ({ children }) => <Typography level='title-lg'>{children}</Typography>,
-                    h5: ({ children }) => <Typography level='title-md'>{children}</Typography>,
-                    h6: ({ children }) => <Typography level='title-sm'>{children}</Typography>,
-                    hr: () => <Divider />,
-                    a: ({ children, href }) => <Link href={href}>{children}</Link>,
-                    input: ({ type, ...rest }) => {
-                        if (type === 'checkbox') {
-                            return <Checkbox checked={rest.checked} disabled={rest.disabled} />
-                        }
-                    },
-                    ul: ({ children }) => <List marker="disc"> {children} </List>,
-                    ol: ({ children }) => <List marker="decimal"> {children} </List>,
-                    li: ({ children }) => <ListItem>{children}</ListItem>,
-                    p: ({ children }) => <Typography>{children}</Typography>,
-                    table: ({ children }) => {
-                        return (
-                            <Sheet>
-                                <Table borderAxis="both">
-                                    {children}
-                                </Table>
-                            </Sheet>
-                        )
-                    },
-                    blockquote: ({ children }) => {
-                        return (
-                            <Card variant='soft' sx={{ py: 1, borderLeft: '2px solid #aaa', borderRadius: 1 }}>
-                                <Typography level='body-sm'>
-                                    {children}
-                                </Typography>
-                            </Card>
-                        )
-                    },
-                    img: ({ src, alt }) => {
-                        return (
-                            <div style={{
-                                width: '100%',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center'
-                            }}>
-                                <img
-                                    src={src}
-                                    loading="lazy"
-                                    alt={alt}
-                                    style={{
-                                        width: '90%',
-                                        margin: 'auto',
-                                        borderRadius: 10
-                                    }}
-                                />
-
-                            </div>
-                        )
-                    }
-                }}
+                components={mdComponentsConfig}
             >
                 {item?.fields?.data}
             </Markdown>
