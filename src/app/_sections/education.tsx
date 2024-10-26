@@ -44,6 +44,14 @@ const educations: IEducation[] = [
         }
     },
     {
+        institute: 'T.I.S.',
+        location: 'Bahrain',
+        time: {
+            start: 2012,
+            end: 2015
+        }
+    },
+    {
         institute: 'Sherbourne',
         location: 'Qatar',
         time: {
@@ -71,6 +79,8 @@ const Education = () => {
 
             <Stack sx={{
                 flexDirection: 'row-reverse',
+                justifyContent: 'flex-end',
+                alignItems: 'flex-start',
 
                 [theme.breakpoints.down(600)]: {
                     flexDirection: 'column-reverse',
@@ -107,7 +117,6 @@ const Education = () => {
                     <Card component="li" sx={{
                         mr: 2,
                         minHeight: '400px',
-                        height: '90%',
                         maxWidth: 400,
                         '& > div:not(:first-of-type)': {
                             opacity: 0,
