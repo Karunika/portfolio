@@ -20,6 +20,7 @@
     "@types/react-syntax-highlighter": "^15.5.13",
     "animate.css": "^4.1.1",
     "contentful": "^11.1.4",
+    "devicons-react": "^1.3.0",
     "giscus": "^1.5.0",
     "moment": "^2.30.1",
     "next": "^14.2.15",
@@ -36,6 +37,7 @@
     "rehype-raw": "^7.0.0",
     "rehype-sanitize": "^6.0.0",
     "remark-gfm": "^4.0.0",
+    "tech-stack-icons": "^2.1.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },

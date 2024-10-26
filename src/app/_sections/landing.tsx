@@ -1,10 +1,9 @@
 'use client'
 
-import Image from 'next/image'
 import Button from '@mui/joy/Button'
 import Divider from '@mui/joy/Divider'
 import Typography from '@mui/joy/Typography'
-import { Parallax, Background } from 'react-parallax'
+import { Parallax } from 'react-parallax'
 import { scroller } from 'react-scroll'
 import ExpandMoreOutlined from '@mui/icons-material/ExpandMoreOutlined'
 import { useTheme } from '@mui/joy'
@@ -17,7 +16,6 @@ const Landing = () => {
     return (
         <Parallax
             bgImage='images/landing-bg.jpg'
-            bgImageAlt="the dog"
             strength={-200}
         >
             <div style={{

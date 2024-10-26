@@ -25,7 +25,7 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
                 minHeight: fullHeight ? '100vh' : 'auto',
                 display: 'flex',
                 alignItems: 'center',
-                backgroundColor: odd ? '#eee' : '',
+                backgroundColor: odd ? theme.palette.neutral[200] : '',
                 '& > div': {
                     width: '100%'
                 }
