@@ -1,4 +1,6 @@
-import SectionLayout from '../../utils/sectionLayout'
+'use client'
+
+import SectionLayout from '../_components/sectionLayout'
 import Stepper from '@mui/joy/Stepper';
 import Step from '@mui/joy/Step';
 import StepIndicator, { stepIndicatorClasses } from '@mui/joy/StepIndicator';
@@ -11,6 +13,7 @@ import ListItemDecorator from '@mui/joy/ListItemDecorator';
 import Stack from '@mui/joy/Stack';
 import East from '@mui/icons-material/East';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { useTheme } from '@mui/joy';
 
 const mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
@@ -90,12 +93,13 @@ const experiences: IExperience[] = [
 ]
 
 const Experience = () => {
+    const theme = useTheme()
     return (
         <SectionLayout odd fullHeight col name='experience'>
             <ScrollAnimation animateIn='fadeInLeft' animateOnce={true}>
                 <Typography level='h1'>Work Experience</Typography>
             </ScrollAnimation>
-            <Stepper orientation="vertical" sx={(theme) => ({
+            <Stepper orientation="vertical" sx={{
                 '--StepIndicator-size': '6rem',
                 '--Step-connectorRadius': '1rem',
                 '--Step-connectorThickness': '2px',
@@ -111,7 +115,7 @@ const Experience = () => {
                     borderColor: '#fff',
                     // boxShadow: `0 0 0 1px ${theme.vars.palette.primary[500]}`,
                 }
-            })}>
+            }}>
                 {experiences.map(({ logo, company, title, mode, description, tools, location, time: { start, end } }, i) => (
                     // @ts-ignore
                     <Step id={i} indicator={
@@ -133,15 +137,17 @@ const Experience = () => {
                                     <Typography level='h4'>{title}</Typography>
                                     <Chip variant='outlined' size='sm' sx={{ alignSelf: 'center' }}>{mode}</Chip>
                                 </Stack>
-                                <Typography level='body-sm'>{`${mS[start.month - 1]} ${start.year} - ${mS[end.month - 1]} ${end.year} | ${location}`}</Typography>
+                                <Typography level='body-sm'>
+                                    {`${mS[start.month - 1]} ${start.year} - ${mS[end.month - 1]} ${end.year} | ${location}`}
+                                </Typography>
                             </Stack>
                         </ScrollAnimation>
-                        <Stack sx={(theme) => ({
+                        <Stack sx={{
                             ml: 2,
                             [theme.breakpoints.down(800)]: {
                                 ml: 0
                             }
-                        })}>
+                        }}>
                             <List>
                                 {description.map((point, i) => (
                                     // @ts-ignore

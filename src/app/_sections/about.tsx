@@ -1,5 +1,7 @@
+'use client'
+
 import Typography from "@mui/joy/Typography"
-import SectionLayout from "../../utils/sectionLayout"
+import SectionLayout from "../_components/sectionLayout"
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => {

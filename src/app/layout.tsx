@@ -1,29 +1,35 @@
-import { Button, Container, Stack, Typography } from "@mui/joy"
-import { Outlet, useLocation } from "react-router"
-import SectionLayout from "../utils/sectionLayout"
+'use client'
+
+import { Button, Stack, Typography } from "@mui/joy"
+import SectionLayout from "./_components/sectionLayout"
 import { animateScroll } from 'react-scroll';
 import { SocialIcon } from 'react-social-icons'
 import ExpandLessOutlined from '@mui/icons-material/ExpandLessOutlined';
+import { useTheme } from '@mui/joy';
+import '../index.css'
+import 'animate.css/animate.compat.css';
 
 const Copyright = () => {
-    return <Typography sx={(theme) => ({
+    const theme = useTheme()
+    return <Typography sx={{
         [theme.breakpoints.down(800)]: {
             order: 2
         }
-    })}>Copyright © 2024 Karunika</Typography>
+    }}>Copyright © 2024 Karunika</Typography>
 }
 
 const GoToTop = () => {
+    const theme = useTheme()
     return (
         <Button
             size='lg'
             variant='outlined'
-            sx={[(theme) => ({
+            sx={{
                 borderRadius: 20,
                 [theme.breakpoints.down(800)]: {
                     order: 0
                 }
-            })]}
+            }}
             onClick={() => animateScroll.scrollToTop({
                 duration: 2000,
                 smooth: true,
@@ -35,8 +41,9 @@ const GoToTop = () => {
 }
 
 const SocialMedia = () => {
+    const theme = useTheme()
     return (
-        <Stack direction='row' spacing={1} sx={(theme) => ({
+        <Stack direction='row' spacing={1} sx={{
             [theme.breakpoints.down(800)]: {
                 order: 1,
             },
@@ -47,7 +54,7 @@ const SocialMedia = () => {
                     opacity: 2
                 },
             }
-        })}>
+        }}>
             {[
                 'github.com/karunika',
                 'linkedin.com/in/karunika-t',
@@ -59,33 +66,35 @@ const SocialMedia = () => {
                 <SocialIcon key={i} target="_blank" url={`https://${link}`} />
             ))}
         </Stack>
-
     )
 }
 
-const Layout = () => {
-    const { pathname } = useLocation()
-
+export default function RootLayout({
+    children,
+}: {
+    children: React.ReactNode
+}) {
     return (
-        <>
-            <Outlet />
-            <SectionLayout odd={pathname !== '/'}>
-                <Stack sx={[(theme) => ({
-                    flexDirection: 'row',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    [theme.breakpoints.down(800)]: {
-                        flexDirection: 'column',
-                        rowGap: 2
-                    }
-                })]}>
-                    <Copyright />
-                    <GoToTop />
-                    <SocialMedia />
-                </Stack>
-            </SectionLayout>
-        </>
+        <html lang="en">
+            <head />
+            <body>
+                {children}
+                <SectionLayout odd name='footer'>
+                    <Stack sx={[(theme) => ({
+                        flexDirection: 'row',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        [theme.breakpoints.down(800)]: {
+                            flexDirection: 'column',
+                            rowGap: 2
+                        }
+                    })]}>
+                        <Copyright />
+                        <GoToTop />
+                        <SocialMedia />
+                    </Stack>
+                </SectionLayout>
+            </body>
+        </html>
     )
 }
-
-export default Layout

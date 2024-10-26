@@ -1,5 +1,8 @@
+'use client'
+
+import Image from 'next/image'
 import React from 'react'
-import SectionLayout from '../../utils/sectionLayout'
+import SectionLayout from '../_components/sectionLayout'
 import Stepper from '@mui/joy/Stepper';
 import Step from '@mui/joy/Step';
 import StepIndicator from '@mui/joy/StepIndicator';
@@ -9,6 +12,7 @@ import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
 import Stack from '@mui/joy/Stack'
 import ScrollAnimation from 'react-animate-on-scroll';
+import { useTheme } from '@mui/joy';
 
 interface IEducation {
     institute: string,
@@ -58,21 +62,20 @@ const educations: IEducation[] = [
 ]
 
 const Education = () => {
+    const theme = useTheme()
     return (
         <SectionLayout name='education'>
             <ScrollAnimation animateIn='fadeInLeft' animateOnce>
                 <Typography level='h1'>Education</Typography>
             </ScrollAnimation>
 
-            <Stack sx={[
-                (theme) => ({
-                    flexDirection: 'row-reverse',
+            <Stack sx={{
+                flexDirection: 'row-reverse',
 
-                    [theme.breakpoints.down(600)]: {
-                        flexDirection: 'column-reverse',
-                    },
-                })
-            ]}>
+                [theme.breakpoints.down(600)]: {
+                    flexDirection: 'column-reverse',
+                },
+            }}>
                 <Stepper orientation="vertical" sx={{
                     '--StepIndicator-size': '2rem',
                     '--Step-connectorRadius': '1rem',
@@ -101,26 +104,24 @@ const Education = () => {
                 </Stepper>
 
                 <ScrollAnimation animateIn='fadeInLeft' animateOnce>
-                    <Card component="li" sx={[
-                        (theme) => ({
-                            mr: 2,
-                            minHeight: '400px',
-                            height: '90%',
-                            maxWidth: 400,
-                            '& > div:not(:first-of-type)': {
-                                opacity: 0,
-                                transition: '0.4s ease'
-                            },
-                            '&:hover > div:not(:first-of-type)': {
-                                opacity: 1
-                            },
-                            [theme.breakpoints.down(700)]: {
-                                mb: 4
-                            },
-                        })
-                    ]}>
+                    <Card component="li" sx={{
+                        mr: 2,
+                        minHeight: '400px',
+                        height: '90%',
+                        maxWidth: 400,
+                        '& > div:not(:first-of-type)': {
+                            opacity: 0,
+                            transition: '0.4s ease'
+                        },
+                        '&:hover > div:not(:first-of-type)': {
+                            opacity: 1
+                        },
+                        [theme.breakpoints.down(700)]: {
+                            mb: 4
+                        },
+                    }}>
                         <CardCover>
-                            <img src={require('../../assets/childhood.jpg')} />
+                            <img src='images/childhood.jpg' />
                         </CardCover>
                         <CardCover
                             sx={{

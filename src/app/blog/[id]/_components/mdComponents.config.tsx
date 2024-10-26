@@ -1,4 +1,3 @@
-
 import List from '@mui/joy/List'
 import ListItem from '@mui/joy/ListItem'
 import Card from '@mui/joy/Card'
@@ -22,8 +21,9 @@ const config: Partial<Components> = {
     h5: ({ children }) => <Typography level='title-md'> {children} </Typography>,
     h6: ({ children }) => <Typography level='title-sm'> {children} </Typography>,
     hr: () => <Divider />,
-    // @ts-ignore
-    a: ({ children, href, ...props }) => <span {...props} > <Link href={href}> {children} </Link></span >,
+    a: ({ children, href, id }) => {
+        return <Link href={href} id={id?.replace('user-content-', '')}> {children} </Link>
+    },
     input: ({ type, ...rest }) => {
         if (type === 'checkbox') {
             return <Checkbox checked={rest.checked} disabled={rest.disabled} />
@@ -31,7 +31,9 @@ const config: Partial<Components> = {
     },
     ul: ({ children }) => <List marker="disc" > {children} </List>,
     ol: ({ children }) => <List marker="decimal" > {children} </List>,
-    li: ({ children, ...props }) => <ListItem><span {...props} > {children} </span></ListItem >,
+    li: ({ children, id }) => {
+        return <ListItem><span id={id?.replace('user-content-', '')}> {children} </span></ListItem >
+    },
     p: ({ children }) => <Typography>{children} </Typography>,
     table: ({ children }) => {
         return (

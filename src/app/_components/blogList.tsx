@@ -1,14 +1,15 @@
-import { useContext } from 'react';
-import { Link, useLocation } from "react-router-dom";
+'use client'
+
+import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import Typography from '@mui/joy/Typography'
 import List from '@mui/joy/List'
+import ListDivider from '@mui/joy/ListDivider'
 import ListItem from '@mui/joy/ListItem'
-import Card from '@mui/joy/Card'
 import Stack from '@mui/joy/Stack';
 import Chip from '@mui/joy/Chip';
 import Box from '@mui/joy/Box';
-import moment from 'moment';
-import { BlogsContext, BlogsContextType } from '../context/blogs';
+import { getEntries } from '../../utils/contentfulService'
 
 const KeywordChips = ({ keywords }: { keywords: string }) => {
     return (
@@ -19,32 +20,24 @@ const KeywordChips = ({ keywords }: { keywords: string }) => {
     )
 }
 
-const formatTimestamp = (timestamp: string) => moment(timestamp).format('MMMM Do, YYYY h:mm A');
-
 const Layout = () => {
-    const { pathname } = useLocation()
-    const context = useContext(BlogsContext);
+    const [items, setItems] = useState<any[]>([])
 
-    if (!context) {
-        return <p>Error: Blog Context is not available.</p>;
-    }
-    const { items, loading, error } = context as BlogsContextType;
-
-    if (loading || error) {
-        return <p>Error: DataContext is not available.</p>;
-    }
+    useEffect(() => {
+        getEntries()
+            .then((res) => setItems(res as any[]))
+    }, [])
 
     return (
         <List sx={{ flex: 1 }}>
             {items.map((item, i) => (
-                // @ts-ignore
-                <ListItem key={i}>
-                    <Link to={'/blog/' + String(item?.sys?.id)}
-                        style={{ flex: 1 }}
-                        className='anchor'
-                        state={{ item: item, prev: pathname }}
-                    >
-                        <Card sx={{ flex: 1 }}>
+                <>
+                    {i !== 0 && <ListDivider />}
+                    <ListItem key={i}>
+                        <Link href={'/blog/' + item.id}
+                            style={{ flex: 1 }}
+                            className='anchor'
+                        >
                             <Box
                                 sx={{
                                     display: 'flex',
@@ -56,21 +49,21 @@ const Layout = () => {
                                 <Box>
 
                                     <Typography level='title-lg'>
-                                        {String(item?.fields?.title)}
+                                        {String(item.title)}
                                     </Typography>
                                     <Typography level='body-sm'>
-                                        {formatTimestamp(String(item?.sys?.createdAt))}
+                                        {item.createdAt}
                                     </Typography>
 
-                                    <KeywordChips keywords={String(item?.fields?.keywords)} />
+                                    <KeywordChips keywords={item.keywords} />
                                 </Box>
                                 <Box>
 
                                 </Box>
                             </Box>
-                        </Card>
-                    </Link>
-                </ListItem>
+                        </Link>
+                    </ListItem>
+                </>
             ))}
         </List>
     )

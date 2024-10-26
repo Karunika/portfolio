@@ -1,4 +1,6 @@
-import SectionLayout from '../../utils/sectionLayout'
+'use client'
+
+import SectionLayout from '../_components/sectionLayout'
 import Typography from '@mui/joy/Typography'
 import Card from '@mui/joy/Card'
 import List from '@mui/joy/List';
@@ -8,7 +10,7 @@ import Box from '@mui/joy/Box';
 import Stack from '@mui/joy/Stack';
 import Divider from '@mui/joy/Divider'
 import ScrollAnimation from 'react-animate-on-scroll';
-import { useTheme } from '@emotion/react';
+import { useTheme } from '@mui/joy';
 
 const skills: { [key: string]: string | { [key: string]: string } } = {
     programming: {
@@ -44,17 +46,17 @@ const Skills = () => {
             <ScrollAnimation animateIn='fadeInLeft' animateOnce>
                 <Typography level='h1'>Skills</Typography>
             </ScrollAnimation>
-            <Stack sx={[(theme) => ({
+            <Stack sx={{
                 flexDirection: 'row',
                 [theme.breakpoints.down(800)]: {
                     flexDirection: 'column',
                 }
-            })]}>
+            }}>
                 <ScrollAnimation animateIn='fadeInLeft' animateOnce class='skills'>
                     <Card sx={{ position: 'relative' }}>
                         {Object.keys(skills).map((title: string) => (
                             <Stack>
-                                <Box sx={(theme) => ({
+                                <Box sx={{
                                     position: 'sticky',
                                     top: 10,
                                     backgroundColor: theme.vars.palette.neutral[50],
@@ -69,7 +71,7 @@ const Skills = () => {
                                         position: 'absolute',
                                         top: -10,
                                     }
-                                })}>
+                                }}>
                                     <Typography level='title-lg'>{title.replace(/^./, (n) => n.toUpperCase())}</Typography>
                                     <Divider sx={{ mt: 1 }} />
                                 </Box>

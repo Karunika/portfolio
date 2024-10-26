@@ -1,4 +1,5 @@
-import SectionLayout from "../../utils/sectionLayout"
+'use client'
+import SectionLayout from "../_components/sectionLayout"
 import Typography from "@mui/joy/Typography"
 import List from '@mui/joy/List';
 import ListItem from '@mui/joy/ListItem';

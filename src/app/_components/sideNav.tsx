@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import Box from '@mui/joy/Box';
 import Drawer from '@mui/joy/Drawer';
@@ -75,21 +77,6 @@ const SideNav = () => {
                             </>
                         ))}
                     </List>
-                    {/* <List>
-                        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text) => (
-                            <ListItem key={text}>
-                                <ListItemButton>{text}</ListItemButton>
-                            </ListItem>
-                        ))}
-                    </List>
-                    <Divider />
-                    <List>
-                        {['All mail', 'Trash', 'Spam'].map((text) => (
-                            <ListItem key={text}>
-                                <ListItemButton>{text}</ListItemButton>
-                            </ListItem>
-                        ))}
-                    </List> */}
                 </Box>
             </Drawer>
         </Box>
