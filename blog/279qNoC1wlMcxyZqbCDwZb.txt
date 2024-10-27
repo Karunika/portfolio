@@ -1,0 +1,55 @@
+3:I[33651,["174","static/chunks/174-f4f67965eecc0076.js","795","static/chunks/795-9f63e2ffa12d8b92.js","509","static/chunks/509-b38804c0594b637a.js","718","static/chunks/app/blog/%5Bid%5D/layout-31a5ca4daddf169a.js"],"default",1]
+4:I[4707,[],""]
+6:I[36423,[],""]
+7:I[66563,["174","static/chunks/174-f4f67965eecc0076.js","795","static/chunks/795-9f63e2ffa12d8b92.js","509","static/chunks/509-b38804c0594b637a.js","257","static/chunks/257-fb39485088bc381c.js","203","static/chunks/203-c85e02b55a6f40b6.js","185","static/chunks/app/layout-a64e882428a2dac9.js"],"default",1]
+5:["id","279qNoC1wlMcxyZqbCDwZb","d"]
+0:["L4jN6WkWH-N-oDgEDqxx_",[[["",{"children":["blog",{"children":[["id","279qNoC1wlMcxyZqbCDwZb","d"],{"children":["__PAGE__?{\"id\":\"279qNoC1wlMcxyZqbCDwZb\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","279qNoC1wlMcxyZqbCDwZb","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"id":"279qNoC1wlMcxyZqbCDwZb"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/468a5ecc2703b4ba.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L8",null]]]]
+9:I[16720,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],""]
+a:I[88843,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],""]
+b:I[51630,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],""]
+c:I[52508,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],"default"]
+d:T1218,Hello World! After putting it off for a while, my personal portfolio website and blog section are finally up and running—and I'm really happy with how they turned out.
+
+I’ll try to keep this short, but I really want to take a moment to thank and credit the amazing open-source libraries, external media content, and UI/UX projects that inspired and helped shape my website :)
+
+## Thanks!
+
+First and foremost, I owe a huge thanks to Ryan Fitzgerald's [website](https://ryanfitzgerald.github.io/devportfolio/) and [github repository link](https://github.com/RyanFitzgerald/devportfolio) for his incredible open-source website, which has inspired much of my landing page design and I bet you can see that lol. (By the way, I realized while writing this that I hadn’t even starred his repository yet—don’t worry, I fixed that!)
+
+Also, this website is built in [react](https://react.dev/) with [Joy UI](https://mui.com/joy-ui/getting-started/). I used react with [typescript](https://www.typescriptlang.org/), and since I built and deployed a bare minimum version of this website (without blogs) in like almost overnight, my code was, respectfully, utter spaghetti.
+
+For instance, do not be surprised if you see pieces of code like this floating around my source code specially in the first few commits.
+
+```
+const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = false, sx }: any) => {
+  // ...
+}
+```
+
+I have improved it alot ever since then, but it has still got a long way to go.
+
+I’m using [Contentful](https://www.contentful.com/) to manage my blog posts (stored as raw text files and displayed as markdown on my website), and hosting my static portfolio on [GitHub Pages](https://pages.github.com/), which is simple yet powerful for projects like this. The comment sections are powered by [giscus](https://giscus.app/), which internally uses the GitHub discussions API.
+
+> However, there were a few things that were a little bit of a pain in the ass to set up. To avoid making this blog overly technical, I’ll spare you the details. But that said, I also believe it’s worth discussing in case anyone else encounters the same issues in the future, since honestly finding help for this can be quite challenging. So I will write another blog for it perhaps, in the near future.
+
+One honorable mention goes to [ECBULAT](https://www.pexels.com/@ecbulat-159590971/) for my landing page background <3
+
+And of course, a special shoutout to my mom for the adorable childhood picture you’ll find on my site—it brings a personal touch that means a lot to me.
+
+A huge shoutout to all the library developers for these wonderful open source services, specially for people like me who are just starting out in their careers and cannot afford monetarily supporting them yet.
+
+Here's my [GitHub repository](https://github.com/Karunika/portfolio) and [package.json file](https://github.com/Karunika/portfolio/blob/main/package.json) for a list of all the libraries used in this project.
+
+## Want to make your own portfolio website as a developer?
+
+If you are thinking of building your own developer portfolio, you should definitely checkout [Emma Bostian’s developer portfolios collection](https://github.com/emmabostian/developer-portfolios) to find some inspiration. But behold! a friendly reminder, do not forget to credit ones that inspired you :D Do consider sharing your portfolio through a pull request! I’d love to check it out too—portfolio websites are a creative expression, and I enjoy seeing what others come up with.
+
+## What do you expect to read in my blogs?
+
+So it would be pretty fair to assume that most of my blog posts will revolve around technical topics like coding, development, and all things tech-related. While that’s true, I’m also deeply interested in philosophy—so much so that I once started questioning my long-standing passion for math and coding.
+
+What's truly fascinating is how philosophy underpins everything we know. It’s the genesis of all the disciplines that have evolved into their own distinct fields over time—even tech. You can think about coding philosophically too, but the two have diverged enough for most people to view coding and philosophy as two independent fields rather than the former as a subset of the latter. Main takeaway, don’t be surprised if you come across posts on non-technical topics too—I love exploring ideas beyond the code.
+
+That’s all for now, but I hope you’ll stick around for future posts! Thanks again for taking the time to read, and I look forward to sharing more with you soon :)2:[["$","$L9",null,{"level":"h1","sx":{"mt":4,"mb":"1rem !important"},"children":"Hello World!"}],["$","$L9",null,{"sx":{"mt":1},"level":"body-sm","children":"October 19th, 2024 4:38 AM"}],["$","$La",null,{"direction":"row","spacing":1,"sx":{"flexWrap":"wrap","mt":2},"children":[["$","$Lb","0",{"variant":"outlined","size":"sm","children":"first"}],["$","$Lb","1",{"variant":"outlined","size":"sm","children":"portfolio"}]]}],["$","$Lc",null,{"children":"$d"}]]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Hello World!"}],["$","meta","3",{"name":"keywords","content":"first,portfolio"}],["$","meta","4",{"property":"og:title","content":"Hello World!"}],["$","meta","5",{"property":"og:locale","content":"en_US"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Hello World!"}],["$","link","8",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
+1:null
