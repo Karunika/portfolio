@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/runtime": "^7.26.0",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@giscus/react": "^3.0.0",
@@ -44,8 +43,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build && next export && touch ./dist/.nojekyll && echo 'karunika.work' > ./dist/CNAME",
+    "deploy": "gh-pages -d dist -t true"
   },
   "eslintConfig": {
     "extends": [
