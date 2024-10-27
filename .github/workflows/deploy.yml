@@ -4,6 +4,11 @@ on:
   workflow_dispatch: # Allows manual triggering
   repository_dispatch:  # Custom event triggered by Contentful Webhook
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
