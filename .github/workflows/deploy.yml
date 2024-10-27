@@ -4,11 +4,6 @@ on:
   workflow_dispatch: # Allows manual triggering
   repository_dispatch:  # Custom event triggered by Contentful Webhook
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,5 +29,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACTIONS_DEPLY_KEY }}
+          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./dist  # Next.js static files are in the 'dist' folder by default
