@@ -11,6 +11,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ssh-strict: false          # Disable strict checking of the host key
+          persist-credentials: false  # Ensure we use the deploy key
+
+      - name: Set up SSH for Git
+        run: |
+          git remote set-url origin git@github.com:Karunika/portfolio.git
 
       - name: Setup Node Environment
         uses: actions/setup-node@v2
