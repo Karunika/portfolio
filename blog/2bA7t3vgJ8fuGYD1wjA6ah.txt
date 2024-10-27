@@ -1,0 +1,186 @@
+3:I[33651,["174","static/chunks/174-f4f67965eecc0076.js","795","static/chunks/795-9f63e2ffa12d8b92.js","509","static/chunks/509-b38804c0594b637a.js","718","static/chunks/app/blog/%5Bid%5D/layout-31a5ca4daddf169a.js"],"default",1]
+4:I[4707,[],""]
+6:I[36423,[],""]
+7:I[66563,["174","static/chunks/174-f4f67965eecc0076.js","795","static/chunks/795-9f63e2ffa12d8b92.js","509","static/chunks/509-b38804c0594b637a.js","257","static/chunks/257-fb39485088bc381c.js","203","static/chunks/203-c85e02b55a6f40b6.js","185","static/chunks/app/layout-a64e882428a2dac9.js"],"default",1]
+5:["id","2bA7t3vgJ8fuGYD1wjA6ah","d"]
+0:["tXmCxVvqqu585D9JiaFKV",[[["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__?{\"id\":\"2bA7t3vgJ8fuGYD1wjA6ah\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"id":"2bA7t3vgJ8fuGYD1wjA6ah"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/468a5ecc2703b4ba.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L8",null]]]]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Here's what I did not tell you about my portfolio website"}],["$","meta","3",{"name":"keywords","content":"github actions,nextjs"}],["$","meta","4",{"property":"og:title","content":"Here's what I did not tell you about my portfolio website"}],["$","meta","5",{"property":"og:locale","content":"en_US"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Here's what I did not tell you about my portfolio website"}],["$","link","8",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
+1:null
+9:I[16720,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],""]
+a:I[88843,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],""]
+b:I[51630,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],""]
+c:I[52508,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-93d87a4e7991628d.js"],"default"]
+d:T18d7,It hadn't even been a day of me publishing my second blog on how to set up react-router with gh-pages and whatnot, excitedly, I shared this to my boyfriend through discord.
+
+And well here's the embed it automatically created...
+
+![discord embed blog meta data](//images.ctfassets.net/ud4ywsjg17po/2AQ2XYdrZG68H4m0BqBaUM/d58bcf9770759557445facb9cff552ee/image.png)
+
+I meant that crying emoji so bad.
+
+I shouldn't have been surprised but I just hadn't concsiously thought about it.
+
+So there are some meta tags called open graph meta tags[^1]. They control how previews are generated for a url when shared on social media like discord. Since, my website was mostly operating on client Side, I didn't really have much options about responding with pre-generated html files with meta tags already present in them.
+
+[^1]: [Open Graph Protocol](https://ogp.me/)
+
+Some possible solutions are like manually creating html files with meta tags for all blogs i.e., all routes, and then mv them into the build directory before I serve it. Or even automate it with some javascript code. And to bear in mind, this is all happening outside of React SPA.
+
+But the point is there are already wonderful tools out there to do it for you, like [Next.js](https://nextjs.org/). Generating static assets in advance to serve them is a stratergy called Static Site Generation.
+
+One problem with this is that, my meta data related information for the blogs would actually be coming from Contentful CMS. So had I planned to publish new meta-data related changes from contentful's app, I'd have to rebuild and redeploy it on GitHub all over again. This wasn't particularly a problem with pure Client Side Rendering cause in that I was just using script to request from the API during client's runtime.
+
+Of course I could have done all that manually too, which isn't that big of a pain in the ass, cause obviously the scale of this porject. But I was like- it is still inconvenient. What better time than this to use GitHub Actions and automate workflows.
+
+## No more Hash Routing
+
+No more hash routing.
+
+No more side effects to circumvent proclems related to it.
+
+Since, whenever we visit a valid route in, there is an html file PRESENT for it, we do not need hacks like I used in my previous blog[^2].
+
+[^2]: ...
+
+I am not gonna delete my previous post so that peopel struggling with those issues can still take a look at that, specially if they don't really care about Social Medial previews or SEO.
+
+## GitHub Workflow
+
+Alright.
+
+I have worked with CI/CD type stuff in my past job, but never really dabbled with writign workflows myself.
+
+> Just want to make it clear that GitHub Workflows are used to automate jobs related to GitHub , not just CI/CD.
+
+I made one very silly error and if you are making that make sure you do not do it lol.
+
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # debugging
+      - name: List Directory Contents
+        run: ls -la
+
+      # debugging
+      - name: Check Git Remotes
+        run: git remote -v
+
+      - name: Set up SSH for Git
+        run: |
+          git remote set-url origin git@github.com:Karunika/portfolio.git
+
+      # debugging
+      - name: Check Git Remotes again
+        run: git remote -v
+
+      - name: Setup Node Environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run predeploy
+        env:
+          NEXT_PUBLIC_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_ACCESS_TOKEN }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist  # Next.js static files are in the 'dist' folder by default
+```
+
+Just a short tutorial for anyone who's new to this-
+GitHub workflows are triggered by events. Events could be `commiting`, `pushing`, `merging PRs`, etc.
+
+The event that you intend to trigger a workflow is stated after `on`
+
+```yaml
+on:
+  workflow_dispatch:
+  repository_dispatch:
+```
+
+The workflow is instructed in jobs. There could be multiple of them, they be default run concurrently, but you can also make it so that they run sequentially. However, I did require to deal with it.
+
+This is a job,
+
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # debugging
+      - name: List Directory Contents
+        run: ls -la
+
+      # debugging
+      - name: Check Git Remotes
+        run: git remote -v
+
+      - name: Set up SSH for Git
+        run: |
+          git remote set-url origin git@github.com:Karunika/portfolio.git
+
+      # debugging
+      - name: Check Git Remotes again
+        run: git remote -v
+
+      - name: Setup Node Environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run predeploy
+        env:
+          NEXT_PUBLIC_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_ACCESS_TOKEN }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist  # Next.js static files are in the 'dist' folder by default
+```
+
+`build` right after jobs is just arbitrary.
+
+you can declare as many jobs are you like. It is an identifier for a job.
+
+now, every instruction in a job can either use an already pre-existing action, other users have made for us, or a linux command.
+
+![contentful create webhook interface](//images.ctfassets.net/ud4ywsjg17po/3VzGz6EnKhbfvUss1Hw7aG/3cebc06546a88d6664dfa8063dcf89c4/image.png)
+
+![contentful webhook payload interface](//images.ctfassets.net/ud4ywsjg17po/4vh5k7KjvFldzFWsnwdecQ/23799036338749715c542d6950897aad/image.png)
+
+https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28#user-agent
+
+create a workflow dispatch an event,
+https://docs.github.com/en/webhooks/webhook-events-and-payloads#repository_dispatch
+
+## Conclusion
+2:[["$","$L9",null,{"level":"h1","sx":{"mt":4,"mb":"1rem !important"},"children":"Here's what I did not tell you about my portfolio website"}],["$","$L9",null,{"sx":{"mt":1},"level":"body-sm","children":"October 27th, 2024 8:35 PM"}],["$","$La",null,{"direction":"row","spacing":1,"sx":{"flexWrap":"wrap","mt":2},"children":[["$","$Lb","0",{"variant":"outlined","size":"sm","children":"github actions"}],["$","$Lb","1",{"variant":"outlined","size":"sm","children":"nextjs"}]]}],["$","$Lc",null,{"children":"$d"}]]
