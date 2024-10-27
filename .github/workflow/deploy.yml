@@ -1,10 +1,6 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main  # Replace with your default branch
-
   workflow_dispatch: # Allows manual triggering
   repository_dispatch:  # Custom event triggered by Contentful Webhook
 
@@ -16,14 +12,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Setup Node Environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: 22
+          cache: npm
+
       - name: Install dependencies
         run: npm install
 
       - name: Build project
-        run: npm run build
+        run: npm run predeploy
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out  # Next.js static files are in the 'out' folder by default
+          publish_dir: ./dist  # Next.js static files are in the 'dist' folder by default
