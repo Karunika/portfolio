@@ -43,7 +43,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build && next export && touch ./dist/.nojekyll && echo 'karunika.work' > ./dist/CNAME",
+    "predeploy": "npm run build && touch ./dist/.nojekyll && echo 'karunika.work' > ./dist/CNAME",
     "deploy": "gh-pages -d dist -t true"
   },
   "eslintConfig": {
