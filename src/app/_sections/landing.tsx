@@ -16,6 +16,7 @@ const Landing = () => {
     return (
         <Parallax
             bgImage='images/landing-bg.jpg'
+            bgImageAlt='software developer landing page background'
             strength={-200}
         >
             <div style={{

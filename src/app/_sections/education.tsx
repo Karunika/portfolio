@@ -130,7 +130,7 @@ const Education = () => {
                         },
                     }}>
                         <CardCover>
-                            <img src='images/childhood.jpg' />
+                            <img src='images/childhood.jpg' alt='childhood picture' />
                         </CardCover>
                         <CardCover
                             sx={{
