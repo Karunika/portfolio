@@ -23,6 +23,8 @@ jobs:
 
       - name: Build project
         run: npm run predeploy
+        env:
+          NEXT_PUBLIC_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_ACCESS_TOKEN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
