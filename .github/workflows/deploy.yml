@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   workflow_dispatch: # Allows manual triggering
   repository_dispatch:  # Custom event triggered by Contentful Webhook
+    type: [publish_contentful_event]
 
 jobs:
   build:
