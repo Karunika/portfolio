@@ -3,14 +3,12 @@
 6:I[36423,[],""]
 7:I[66563,["174","static/chunks/174-f4f67965eecc0076.js","795","static/chunks/795-9f63e2ffa12d8b92.js","509","static/chunks/509-b38804c0594b637a.js","257","static/chunks/257-fb39485088bc381c.js","203","static/chunks/203-c85e02b55a6f40b6.js","185","static/chunks/app/layout-a64e882428a2dac9.js"],"default",1]
 5:["id","2bA7t3vgJ8fuGYD1wjA6ah","d"]
-0:["b_T6xIkSlD9o0vBCUGY-9",[[["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__?{\"id\":\"2bA7t3vgJ8fuGYD1wjA6ah\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"id":"2bA7t3vgJ8fuGYD1wjA6ah"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/468a5ecc2703b4ba.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L8",null]]]]
+0:["_M5FUn519GlN-cIyNAJRY",[[["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__?{\"id\":\"2bA7t3vgJ8fuGYD1wjA6ah\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"id":"2bA7t3vgJ8fuGYD1wjA6ah"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/468a5ecc2703b4ba.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L8",null]]]]
 9:I[16720,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],""]
 a:I[88843,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],""]
 b:I[51630,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],""]
 c:I[52508,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],"default"]
-8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Here's what I did not tell you about my portfolio website"}],["$","meta","3",{"name":"keywords","content":"github actions,nextjs,contentful"}],["$","meta","4",{"property":"og:title","content":"Here's what I did not tell you about my portfolio website"}],["$","meta","5",{"property":"og:locale","content":"en_US"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Here's what I did not tell you about my portfolio website"}],["$","link","8",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
-1:null
-d:T36d1,It hadn’t even been a day since I published my second blog on setting up React Router with GitHub Pages, and I was excitedly sharing the link with my boyfriend on Discord.
+d:T374a,It hadn’t even been a day since I published my second blog on setting up React Router with GitHub Pages, and I was excitedly sharing the link with my boyfriend on Discord.
 
 And well here's the embed it automatically generated...
 
@@ -30,7 +28,7 @@ Fortunately, there are great tools to simplify this process, like [Next.js](http
 
 The only catch? My blog metadata is sourced from Contentful CMS. So, if I want to publish a quick meta change from Contentful, I’d need to rebuild and redeploy everything on GitHub to update the static files. This wasn't particularly a problem with pure Client Side Rendering cause in that I was just using a script to request from the API during runtime.
 
-Of course I could have done all of that manually too, which wouldn't be very error-prone, owing to the scale of this porject. But I was like- it is still inconvenient. What better time than this streamline this workflow with GitHub Actions!
+Of course I could have done all of that manually too, which wouldn't be very error-prone, owing to the scale of this project. But I was like- it is still inconvenient. What better time than now to streamline this workflow with GitHub Actions!
 
 ## No more Hash Routing
 
@@ -38,7 +36,7 @@ Gone are the days of hash routing! yay!
 
 No more hacks or side effects to circumvent problems related to it.
 
-Since, whenever we visit a valid route in, there is an html file PRESENT for, which means we no longer need the workarounds I discussed in my previous blog.[^2]
+Since, whenever we visit a valid route, there is a html file PRESENT for it, which means we no longer need the workarounds I discussed in my previous blog.[^2]
 
 [^2]: Karunika, 2024. [This is what happens when you use react-router with Github Pages](https://karunika.work/blog/3QgdcvaiDnPbgONGgGQupN)
 
@@ -48,7 +46,7 @@ I’ll keep my earlier post up for anyone still wrestling with those issues, esp
 
 Alright, let’s dive in.
 
-While I’ve worked with CI/CD setups in past roles, writing workflows myself is new territory.
+While I’ve worked with CI/CD setups in past roles, writing workflows myself is a new territory for me.
 
 > It’s worth noting that GitHub Workflows can automate a variety of tasks beyond CI/CD—they’re designed to streamline all kinds of GitHub-related jobs.
 
@@ -76,7 +74,7 @@ on:
   repository_dispatch:
 ```
 
-The `on` keyword defines the `events` that trigger your workflow’s `jobs`. Events could include actions committing, pushing, merging, pull requests, creating issues, closing issues, making a new branch, and [many more](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows).
+The `on` keyword defines the `events` that trigger your workflow’s `jobs`. Events could include actions like committing, pushing, merging, pull requests, creating issues, closing issues, making a new branches, and [many more](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows).
 
 For example, for a `push` event, your yaml file must look something like this:
 
@@ -85,9 +83,11 @@ on:
   push
 ```
 
-You can also make it more specific by defining criteria such as which branch to listen to, using filters, pattern matching, and other options.
+You can also make it more specific by defining criterias such as which branch to listen to, filters, pattern matching, and other options.
 
 `workflow_dispatch` enables you to manually dispatch events, by automatically granting you access to "Run Workflow" button in the Actions tab, under the corresponing Workflow.
+
+`repository_dispatch` enables you to integerate with third party applications, by allowing them to trigger events.
 
 #### The meat of Workflows: Jobs
 
@@ -114,7 +114,7 @@ jobs:
     // ...
 ```
 
-It's under a job we can specificy the platform it shall [run on](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps).
+It's under a job we can specify the platform it shall [run on](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps).
 
 ```yaml
 jobs:
@@ -163,7 +163,7 @@ These steps run *sequentially* i.e., one after the other.
 
 Alirght, Now let's break down that `yaml` file I just threw at your face.
 
-As stated earlier, this part is responsible for starting thr jobs sections and a specific job `build`.
+As stated earlier, this part is responsible for starting the jobs sections and a specific job `build`.
 
 ```yaml
 jobs:
@@ -191,11 +191,11 @@ There are developers out there who have already wrote series of instructions for
         // ...
 ```
 
-If we are use a pre-written GitHub Action, we use [uses](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsuses) keyword.
+If we use a pre-written GitHub Action, we use [uses](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsuses) keyword.
 
-[Checkout v4](https://github.com/actions/checkout) , as the name suggests, checks-out your repository under `$GITHUB_WORKSPACE`.
+[Checkout v4](https://github.com/actions/checkout), as the name suggests, checks-out your repository under `$GITHUB_WORKSPACE`.
 
-> The [GitHub documentation](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables#default-environment-variables) defined `$GITHUB_WORKSPACE` as- the default working directory on the runner for steps, and the default location of your repository when using the checkout action.
+> The [GitHub documentation](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables#default-environment-variables) defines `$GITHUB_WORKSPACE` as- the default working directory on the runner for steps, and the default location of your repository when using the checkout action.
 
 Now we can setup our environment in the `$GITHUB_WORKSPACE`. And again I use a package to do that instead of manually downloading a system package manager, downloading node, and worrying about all the edge cases.
 
@@ -355,3 +355,5 @@ So finally, I don't have to bother myself with the hassle of opening my VSCode, 
 
 Now, I can create, edit, and delete blogs all in one place. With a single Publish click, the entire workflow takes care of itself. ✨
 2:[["$","$L9",null,{"level":"h1","sx":{"mt":4,"mb":"1rem !important"},"children":"Here's what I did not tell you about my portfolio website"}],["$","$L9",null,{"sx":{"mt":1},"level":"body-sm","children":"October 27th, 2024 8:35 PM"}],["$","$La",null,{"direction":"row","spacing":1,"sx":{"flexWrap":"wrap","mt":2},"children":[["$","$Lb","0",{"variant":"outlined","size":"sm","children":"github actions"}],["$","$Lb","1",{"variant":"outlined","size":"sm","children":"nextjs"}],["$","$Lb","2",{"variant":"outlined","size":"sm","children":"contentful"}]]}],["$","$Lc",null,{"children":"$d"}]]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Here's what I did not tell you about my portfolio website"}],["$","meta","3",{"name":"keywords","content":"github actions,nextjs,contentful"}],["$","meta","4",{"property":"og:title","content":"Here's what I did not tell you about my portfolio website"}],["$","meta","5",{"property":"og:locale","content":"en_US"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Here's what I did not tell you about my portfolio website"}],["$","link","8",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
+1:null
