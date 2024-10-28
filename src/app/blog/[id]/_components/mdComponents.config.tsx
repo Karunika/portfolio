@@ -66,12 +66,10 @@ const config: Partial<Components> = {
                     loading="lazy"
                     alt={alt}
                     style={{
-                        width: '90%',
-                        margin: 'auto',
+                        maxWidth: '90%',
                         borderRadius: 10
                     }}
                 />
-
             </span>
         )
     }
