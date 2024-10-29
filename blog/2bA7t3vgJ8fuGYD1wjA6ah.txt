@@ -3,20 +3,22 @@
 6:I[36423,[],""]
 7:I[66563,["174","static/chunks/174-f4f67965eecc0076.js","795","static/chunks/795-9f63e2ffa12d8b92.js","509","static/chunks/509-b38804c0594b637a.js","257","static/chunks/257-fb39485088bc381c.js","203","static/chunks/203-c85e02b55a6f40b6.js","185","static/chunks/app/layout-a64e882428a2dac9.js"],"default",1]
 5:["id","2bA7t3vgJ8fuGYD1wjA6ah","d"]
-0:["fW1ybJVC-jOdRniBOW4kn",[[["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__?{\"id\":\"2bA7t3vgJ8fuGYD1wjA6ah\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"id":"2bA7t3vgJ8fuGYD1wjA6ah"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/468a5ecc2703b4ba.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L8",null]]]]
-8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Here's what I did not tell you about my portfolio website"}],["$","meta","3",{"name":"keywords","content":"github actions,nextjs,contentful"}],["$","meta","4",{"property":"og:title","content":"Here's what I did not tell you about my portfolio website"}],["$","meta","5",{"property":"og:locale","content":"en_US"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Here's what I did not tell you about my portfolio website"}],["$","link","8",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
-1:null
+0:["Y_p2AWBkyyyPRfshOtjNt",[[["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__?{\"id\":\"2bA7t3vgJ8fuGYD1wjA6ah\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"id":"2bA7t3vgJ8fuGYD1wjA6ah"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/468a5ecc2703b4ba.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L8",null]]]]
 9:I[16720,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],""]
 a:I[88843,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],""]
 b:I[51630,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],""]
 c:I[52508,["174","static/chunks/174-f4f67965eecc0076.js","63","static/chunks/63-5c461be00ae6944d.js","516","static/chunks/516-d25a959883f75ec2.js","604","static/chunks/604-b5b80fcd6dff7b1f.js","548","static/chunks/app/blog/%5Bid%5D/page-a1a5dbd6a7fc1a04.js"],"default"]
-d:T36c4,It hadn’t even been a day since I published my second blog on setting up React Router with GitHub Pages, and I was excitedly sharing the link with my boyfriend on Discord.
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Here's what I did not tell you about my portfolio website"}],["$","meta","3",{"name":"keywords","content":"github actions,nextjs,contentful"}],["$","meta","4",{"property":"og:title","content":"Here's what I did not tell you about my portfolio website"}],["$","meta","5",{"property":"og:locale","content":"en_US"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Here's what I did not tell you about my portfolio website"}],["$","link","8",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
+1:null
+d:T378c,It hadn’t even been a day since I published my second blog on setting up React Router with GitHub Pages, and I was excitedly sharing the link with my boyfriend on Discord.
 
 And well here's the embed it automatically generated...
 
 ![discord embed blog meta data](//images.ctfassets.net/ud4ywsjg17po/2AQ2XYdrZG68H4m0BqBaUM/d58bcf9770759557445facb9cff552ee/image.png)
 
 Yep, that's the crying emoji I felt at that moment. lol.
+
+The preview generated for my blog page was still based on the content of my home page.
 
 I shouldn't have been surprised but I just hadn't concsiously thought about it.
 
@@ -93,7 +95,7 @@ You can also make it more specific by defining criterias such as which branch to
 
 #### The meat of Workflows: Jobs
 
-At the core of the workflow lies, none other than the actual sequence of instructions that run in a workflow i.e., [`Jobs`](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobs)
+At the core of the workflow lies, none other than the actual sequence of instructions that run in a workflow i.e., [`Jobs`](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobs).
 
 There could be multiple jobs. However, here we are only going to take a look over a simple case.
 
@@ -112,9 +114,11 @@ jobs:
   build:
     // ...
 
-  deploy:
+  test:
     // ...
 ```
+
+Whenever you run a workflow all the jobs run concurrently. So naturally, they must be independent of each other.
 
 It's under a job we can specify the platform it shall [run on](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps).
 
@@ -163,7 +167,7 @@ I really hadn't intended to overwhelm you with that, but sometimes I know no bet
 
 These steps run *sequentially* i.e., one after the other.
 
-Alirght, Now let's break down that `yaml` file I just threw at your face.
+Alirght, now let's break down that `yaml` file I just sent your way lol.
 
 As stated earlier, this part is responsible for starting the jobs sections and a specific job `build`.
 
