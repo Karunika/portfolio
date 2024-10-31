@@ -6,7 +6,9 @@ interface Item {
     createdAt: string
     data: string
     title: string
-    thumbnail?: string
+    thumbnail: string
+    thumbnailCourtesyLink: string
+    thumbnailCourtestText: string
     keywords?: string
 }
 
@@ -16,7 +18,8 @@ const getItem = (item: any): Item => {
     return {
         id: String(item?.sys?.id),
         createdAt: formatTimestamp(item?.sys?.createdAt),
-        ...item?.fields
+        ...item?.fields,
+        thumbnail: item.fields.thumbnail.fields.file.url
     }
 }
 

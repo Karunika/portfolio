@@ -65,7 +65,6 @@ const LinkMedia = ({ link }: MediaProps) => {
         })
             .then(res => res.data)
             .then(data => {
-                console.log(data)
                 setPreview(data)
                 setLoading(false)
             })
