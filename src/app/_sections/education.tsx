@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import React from 'react'
 import SectionLayout from '../_components/sectionLayout'
 import Stepper from '@mui/joy/Stepper';
@@ -13,6 +12,7 @@ import Typography from '@mui/joy/Typography';
 import Stack from '@mui/joy/Stack'
 import ScrollAnimation from 'react-animate-on-scroll';
 import { useTheme } from '@mui/joy';
+import content from '../../content'
 
 interface IEducation {
     institute: string,
@@ -24,50 +24,7 @@ interface IEducation {
     },
 }
 
-const educations: IEducation[] = [
-    {
-        institute: 'Warsaw University of Technology',
-        location: 'Warsaw',
-        degree: 'BSc. CS (spec. Computer Systems & Networks)',
-        time: {
-            start: 2020,
-            end: 2024
-        }
-    },
-    {
-        institute: 'J.K.G International School',
-        location: 'India',
-        degree: 'Higher Secondary Education (Science Stream - PCM)',
-        time: {
-            start: 2018,
-            end: 2020
-        }
-    },
-    {
-        institute: 'T.I.S.',
-        location: 'Bahrain',
-        time: {
-            start: 2012,
-            end: 2015
-        }
-    },
-    {
-        institute: 'Sherbourne',
-        location: 'Qatar',
-        time: {
-            start: 2009,
-            end: 2012
-        }
-    },
-    {
-        institute: 'Sherwood Academy',
-        location: 'U.A.E',
-        time: {
-            start: 2004,
-            end: 2009
-        }
-    }
-]
+const educations: IEducation[] = content.homepage.education
 
 const Education = () => {
     const theme = useTheme()
@@ -93,7 +50,7 @@ const Education = () => {
                 }}>
                     {educations.map(({ institute, location, degree, time: { start, end } }, i: number) =>
                         // @ts-ignore
-                        <Step id={i}>
+                        <Step key={i}>
                             <Stack>
                                 <ScrollAnimation animateIn='fadeIn' animateOnce>
                                     <Typography level='h3'>{`${institute}, ${location}`}</Typography>

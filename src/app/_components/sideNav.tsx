@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 import Box from '@mui/joy/Box';
 import Drawer from '@mui/joy/Drawer';
 import Button from '@mui/joy/Button';
@@ -61,7 +61,7 @@ const SideNav = () => {
                 >
                     <List role="menubar">
                         {['about', 'experience', 'education', 'skills', 'blogs', 'contact'].map((section, i) => (
-                            <>
+                            <React.Fragment key={section}>
                                 <ListItem role="none">
                                     <ListItemButton
                                         role="menuitem"
@@ -74,7 +74,7 @@ const SideNav = () => {
                                         {section.replace(/^./, n => n.toUpperCase())}
                                     </ListItemButton>
                                 </ListItem>
-                            </>
+                            </React.Fragment>
                         ))}
                     </List>
                 </Box>

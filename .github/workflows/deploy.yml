@@ -16,12 +16,6 @@ jobs:
           ssh-strict: false          # Disable strict checking of the host key
           persist-credentials: false  # Ensure we use the deploy key
 
-      - name: List Directory Contents
-        run: ls -la
-
-      - name: Check Git Remotes
-        run: git remote -v
-  
       - name: Set up SSH for Git
         run: |
           git remote set-url origin git@github.com:Karunika/portfolio.git
@@ -42,6 +36,7 @@ jobs:
         run: npm run predeploy
         env:
           NEXT_PUBLIC_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_ACCESS_TOKEN }}
+          NEXT_PUBLIC_LINK_PREVIEW_API_KEY: ${{ secrets.NEXT_PUBLIC_LINK_PREVIEW_API_KEY }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -7,7 +7,11 @@ import rehypeRaw from "rehype-raw"
 import rehypeSanitize from "rehype-sanitize"
 import mdComponentsConfig from '../_components/mdComponents.config'
 
-const Markdown = ({ children }: { children: string }) => {
+interface MarkdownProps {
+    children: string
+}
+
+const Markdown = ({ children }: MarkdownProps) => {
     return (
         <ReactMarkdown
             rehypePlugins={[remarkGfm, rehypeRaw, rehypeSanitize]}

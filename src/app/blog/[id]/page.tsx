@@ -4,7 +4,15 @@ import Typography from '@mui/joy/Typography'
 import Stack from '@mui/joy/Stack'
 import Chip from '@mui/joy/Chip'
 
-const KeywordChips = ({ keywords = '' }: { keywords: string }) => {
+interface Params {
+    id: string
+}
+
+interface KeywordChipsProps {
+    keywords: string
+}
+
+const KeywordChips = ({ keywords = '' }: KeywordChipsProps) => {
     return (
         <Stack direction='row' spacing={1} sx={{ flexWrap: 'wrap', mt: 2 }}>
             {/* @ts-ignore */}
@@ -13,12 +21,12 @@ const KeywordChips = ({ keywords = '' }: { keywords: string }) => {
     )
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
+export async function generateMetadata({ params }: { params: Params }) {
     let item = await getEntry(params.id)
 
     return {
         title: item.title,
-        keywords: item.keywords.split(', '),
+        keywords: (item?.keywords || '').split(', '),
         openGraph: {
             title: item.title,
             images: item?.thumbnail,
@@ -27,8 +35,11 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
     }
 }
 
+interface PageProps {
+    params: Params
+}
 
-const Page = async ({ params }: { params: { id: string } }) => {
+const Page = async ({ params }: PageProps) => {
     let item = await getEntry(params.id)
 
     return (
@@ -42,7 +53,7 @@ const Page = async ({ params }: { params: { id: string } }) => {
 
             <Typography sx={{ mt: 1 }} level='body-sm'>{item.createdAt}</Typography>
 
-            <KeywordChips keywords={item.keywords} />
+            {item.keywords && <KeywordChips keywords={item.keywords} />}
 
             <Markdown>
                 {item.data}

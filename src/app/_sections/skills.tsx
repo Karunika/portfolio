@@ -232,6 +232,7 @@ const Skills = () => {
                                 </ListItem>
                                 {keywords[title].map((value) => (
                                     <Option
+                                        key={value}
                                         value={value}
                                         sx={{
                                             [`&.${optionClasses.selected} .${listItemDecoratorClasses.root}`]:
@@ -270,8 +271,8 @@ const Skills = () => {
             <Divider sx={{ my: 2 }} />
 
             <Stack direction='row' sx={{ flex: 1, flexWrap: 'wrap', rowGap: 2, justifyContent: 'center' }}>
-                {technologiesArray.map((techEntity) => (
-                    <SkillChip {...techEntity} query={query} filter={filter} />
+                {technologiesArray.map((techEntity, i) => (
+                    <SkillChip {...techEntity} query={query} filter={filter} key={i} />
                 ))}
             </Stack>
         </SectionLayout >

@@ -19,9 +19,11 @@
     "@types/react-dom": "^18.3.0",
     "@types/react-syntax-highlighter": "^15.5.13",
     "animate.css": "^4.1.1",
+    "axios": "^1.7.7",
     "contentful": "^11.1.4",
     "devicons-react": "^1.3.0",
     "giscus": "^1.5.0",
+    "metascraper": "^5.45.25",
     "moment": "^2.30.1",
     "next": "^14.2.15",
     "react": "^18.3.1",
@@ -37,7 +39,8 @@
     "remark-gfm": "^4.0.0",
     "tech-stack-icons": "^2.1.0",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yaml": "^2.6.0"
   },
   "scripts": {
     "dev": "next dev",

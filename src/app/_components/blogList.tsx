@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Typography from '@mui/joy/Typography'
 import List from '@mui/joy/List'
@@ -31,7 +31,7 @@ const Layout = () => {
     return (
         <List sx={{ flex: 1 }}>
             {items.map((item, i) => (
-                <>
+                <React.Fragment key={item.id}>
                     {i !== 0 && <ListDivider />}
                     <ListItem key={i}>
                         <Link href={'/blog/' + item.id}
@@ -63,7 +63,7 @@ const Layout = () => {
                             </Box>
                         </Link>
                     </ListItem>
-                </>
+                </React.Fragment>
             ))}
         </List>
     )
