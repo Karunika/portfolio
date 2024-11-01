@@ -8,7 +8,7 @@ interface Item {
     title: string
     thumbnail: string
     thumbnailCourtesyLink: string
-    thumbnailCourtestText: string
+    thumbnailCourtesyText: string
     keywords?: string
 }
 
@@ -19,7 +19,7 @@ const getItem = (item: any): Item => {
         id: String(item?.sys?.id),
         createdAt: formatTimestamp(item?.sys?.createdAt),
         ...item?.fields,
-        thumbnail: item.fields.thumbnail.fields.file.url
+        thumbnail: 'https:' + item.fields.thumbnail.fields.file.url
     }
 }
 

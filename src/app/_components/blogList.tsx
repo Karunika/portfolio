@@ -8,6 +8,8 @@ import ListDivider from '@mui/joy/ListDivider'
 import ListItem from '@mui/joy/ListItem'
 import AspectRatio from '@mui/joy/AspectRatio'
 import Stack from '@mui/joy/Stack';
+import Card from '@mui/joy/Card'
+import CardCover from '@mui/joy/CardCover'
 import Chip from '@mui/joy/Chip';
 import Box from '@mui/joy/Box';
 import { getEntries } from '../../utils/contentfulService'
@@ -52,10 +54,14 @@ const Layout = () => {
                                 width: '100%'
                             }
                         }}>
-                            <img
-                                src={'https:' + item.thumbnail}
-                                loading="lazy"
-                            />
+                            <Card sx={{ flex: 1 }}>
+                                <CardCover>
+                                    <img
+                                        src={item.thumbnail}
+                                        loading="lazy"
+                                    />
+                                </CardCover>
+                            </Card>
                         </AspectRatio>
                         <Link href={'/blog/' + item.id}
                             style={{
