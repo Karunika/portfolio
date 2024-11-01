@@ -19,10 +19,10 @@ const About = () => {
             <ScrollAnimation animateIn='fadeInLeft' animateOnce>
                 <Typography level='h1'>About me</Typography>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='fadeInRight' animateOnce>
+            <ScrollAnimation animateIn='fadeIn' animateOnce>
                 <Typography level='body-sm'
                     startDecorator={
-                        <LocationOn fontSize='md' />
+                        <LocationOn fontSize='small' />
                     }
                     sx={{ ml: -1, mb: 2 }}
                 >
