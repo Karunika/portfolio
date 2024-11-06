@@ -73,7 +73,8 @@ svg text {
   margin-top: 2rem !important;
   margin-bottom: 2rem !important;
 }
-.md-container > p, h1, h2, h3, h4, h5, h6, .md-containern > p > code{
+.md-container > :is(p, h1, h2, h3, h4, h5, h6),
+.md-container > p > code {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;

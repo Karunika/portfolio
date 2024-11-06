@@ -9,7 +9,7 @@ import Link from '@mui/joy/Link'
 const Body = ({ item }: { item: any }) => {
     return (
 
-        <SectionLayout fullHeight name='layout'>
+        <SectionLayout fullHeight name='layout' sx={{ mt: -6 }}>
 
             <Typography sx={{ mt: 1 }} level='body-sm'>
                 Image Courtesy:

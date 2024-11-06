@@ -47,7 +47,7 @@ const Header = ({ item }: { item: any }) => {
         }}>
             <Parallax
                 bgImage={item.thumbnail}
-                strength={-400}
+                strength={-200}
             >
                 <Box sx={{
                     minWidth: '100vw',
@@ -76,7 +76,7 @@ const Header = ({ item }: { item: any }) => {
                         <Box>
                             <Typography level='h1'
                                 sx={{
-                                    mb: '1rem !important',
+                                    mb: '2rem !important',
                                     color: theme.vars.palette.primary[100],
                                     '&::after': {
                                         backgroundColor: theme.vars.palette.primary[100]
@@ -87,7 +87,7 @@ const Header = ({ item }: { item: any }) => {
 
                             <Typography
                                 sx={{
-                                    mt: 1,
+                                    mt: 2,
                                     color: theme.vars.palette.primary[100],
                                 }}
                                 level='body-sm'
