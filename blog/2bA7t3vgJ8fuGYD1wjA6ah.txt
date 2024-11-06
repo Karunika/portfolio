@@ -1,18 +1,11 @@
-3:I[33651,["174","static/chunks/174-f4f67965eecc0076.js","1","static/chunks/1-e268d93b35215d1a.js","718","static/chunks/app/blog/%5Bid%5D/layout-8ef33a2c65edeadb.js"],"default",1]
-4:I[4707,[],""]
-6:I[36423,[],""]
-7:I[66563,["174","static/chunks/174-f4f67965eecc0076.js","1","static/chunks/1-e268d93b35215d1a.js","257","static/chunks/257-fb39485088bc381c.js","203","static/chunks/203-c85e02b55a6f40b6.js","185","static/chunks/app/layout-d07f8ac77fd44127.js"],"default",1]
-5:["id","2bA7t3vgJ8fuGYD1wjA6ah","d"]
-0:["yzAStID3UtjMcjHB1RIG9",[[["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__?{\"id\":\"2bA7t3vgJ8fuGYD1wjA6ah\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"id":"2bA7t3vgJ8fuGYD1wjA6ah"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/468a5ecc2703b4ba.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L8",null]]]]
-9:I[16720,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],""]
-a:I[88843,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],""]
-b:I[51630,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],""]
-c:I[78952,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],""]
-d:I[49479,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],""]
-e:I[85937,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],""]
-f:I[28708,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],""]
-10:I[52508,["174","static/chunks/174-f4f67965eecc0076.js","643","static/chunks/643-63c63a95155d9acc.js","359","static/chunks/359-a5728e0f6940d011.js","733","static/chunks/733-74be49e347f06e2f.js","548","static/chunks/app/blog/%5Bid%5D/page-69e39bd73be99d14.js"],"default"]
-11:T3911,It hadn’t even been a day since I published my second blog on setting up React Router with GitHub Pages, and I was excitedly sharing the link with my boyfriend on Discord.
+3:I[4707,[],""]
+5:I[36423,[],""]
+6:I[66563,["734","static/chunks/734-cd2378a063775833.js","257","static/chunks/257-fb39485088bc381c.js","151","static/chunks/151-178bb7f994ec5dbe.js","185","static/chunks/app/layout-1eb837c4049a4254.js"],"default",1]
+4:["id","2bA7t3vgJ8fuGYD1wjA6ah","d"]
+0:["WfayjEUW_Qtz3BzZsiGrq",[[["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__?{\"id\":\"2bA7t3vgJ8fuGYD1wjA6ah\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","2bA7t3vgJ8fuGYD1wjA6ah","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0604d23b1d0373eb.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L6",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L7",null]]]]
+8:I[37162,["734","static/chunks/734-cd2378a063775833.js","373","static/chunks/373-a2711d73c10e468b.js","480","static/chunks/480-80e63cee899b7f26.js","864","static/chunks/864-49b2002574c29c58.js","548","static/chunks/app/blog/%5Bid%5D/page-9cb34422790b60a8.js"],"default"]
+a:I[56445,["734","static/chunks/734-cd2378a063775833.js","373","static/chunks/373-a2711d73c10e468b.js","480","static/chunks/480-80e63cee899b7f26.js","864","static/chunks/864-49b2002574c29c58.js","548","static/chunks/app/blog/%5Bid%5D/page-9cb34422790b60a8.js"],"default"]
+9:T3911,It hadn’t even been a day since I published my second blog on setting up React Router with GitHub Pages, and I was excitedly sharing the link with my boyfriend on Discord.
 
 And well here's the embed it automatically generated...
 
@@ -361,6 +354,356 @@ So finally, I don't have to bother myself with the hassle of opening my VSCode, 
 ![contentful publish button](//images.ctfassets.net/ud4ywsjg17po/uO9xRjhedwnaDLebgAcYg/7cc78ce0894d67b5eaa160175659f84e/image-removebg-preview.png)
 
 Now, I can create, edit, and delete blogs all in one place. With a single Publish click, the entire workflow takes care of itself. ✨
-2:[["$","$L9",null,{"level":"h1","sx":{"mt":4,"mb":"1rem !important"},"children":"Here's what I did not tell you about my Portfolio Website"}],["$","$L9",null,{"sx":{"mt":1},"level":"body-sm","children":"October 27th, 2024 8:35 PM"}],["$","$La",null,{"direction":"row","spacing":1,"sx":{"flexWrap":"wrap","mt":2},"children":[["$","$Lb","0",{"variant":"outlined","size":"sm","children":"github actions"}],["$","$Lb","1",{"variant":"outlined","size":"sm","children":"nextjs"}],["$","$Lb","2",{"variant":"outlined","size":"sm","children":"contentful"}]]}],["$","$Lc",null,{"ratio":"16/9","sx":{"width":"100%","mt":4},"children":["$","$Ld",null,{"sx":{"flexGrow":1},"children":["$","$Le",null,{"children":["$","img",null,{"src":"https://images.ctfassets.net/ud4ywsjg17po/4cfpWRx4nfzOn37KvWs6DP/7d70510f20fd97926064a76a103c8d9b/image.png"}]}]}]}],["$","$L9",null,{"sx":{"mt":1},"level":"body-sm","children":["Image Courtesy:",["$","$Lf",null,{"href":"$undefined","target":"_blank","sx":{"ml":1},"children":" Growtika"}]]}],["$","$L10",null,{"children":"$11"}]]
-8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Here's what I did not tell you about my Portfolio Website"}],["$","meta","3",{"name":"keywords","content":"github actions,nextjs,contentful"}],["$","meta","4",{"property":"og:title","content":"Here's what I did not tell you about my Portfolio Website"}],["$","meta","5",{"property":"og:description","content":"github actions, nextjs, contentful"}],["$","meta","6",{"property":"og:locale","content":"en_US"}],["$","meta","7",{"property":"og:image","content":"https://images.ctfassets.net/ud4ywsjg17po/4cfpWRx4nfzOn37KvWs6DP/7d70510f20fd97926064a76a103c8d9b/image.png"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Here's what I did not tell you about my Portfolio Website"}],["$","meta","10",{"name":"twitter:description","content":"github actions, nextjs, contentful"}],["$","meta","11",{"name":"twitter:image","content":"https://images.ctfassets.net/ud4ywsjg17po/4cfpWRx4nfzOn37KvWs6DP/7d70510f20fd97926064a76a103c8d9b/image.png"}],["$","link","12",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
+c:T3911,It hadn’t even been a day since I published my second blog on setting up React Router with GitHub Pages, and I was excitedly sharing the link with my boyfriend on Discord.
+
+And well here's the embed it automatically generated...
+
+![discord embed blog meta data](//images.ctfassets.net/ud4ywsjg17po/2AQ2XYdrZG68H4m0BqBaUM/d58bcf9770759557445facb9cff552ee/image.png)
+
+Yep, that's the crying emoji I felt at that moment. lol.
+
+The preview generated for my blog page was still based on the content of my home page.
+
+I shouldn't have been surprised but I just hadn't concsiously thought about it.
+
+So, in an `html` document, there are some meta tags called *Open Graph meta tags*[^1] which control how previews are generated for a url when shared on social media platforms like Discord. Since, my website was mostly operating on Client Side— from triggering a render to rendering the components to Committing it to the DOM[^2], all handled by the Client Side JS as opposed to Server Side JS— I didn't really have the luxury to respond with pre-generated html files from the server with those meta tags already present in them.
+
+[^1]: Facebook Archive. [Open Graph Protocol](https://ogp.me/)
+[^2]: React Documentation. [Render and Commit](https://react.dev/learn/render-and-commit)
+
+Some possible workarounds include creating HTML files with the necessary meta tags for each blog post (each route) manually or automating it with JavaScript. However, implementing this outside of the React SPA and then working our way into the SPA might get tricky, so I didn’t explore that much.
+
+Fortunately, there are great tools to simplify this process, like [Next.js](https://nextjs.org/). Generating static html files in advance, with included Open Graph meta tags, is a stratergy called Static Site Generation (SSG).
+
+The only catch? Besides the challenge of migrating from React Router to Next Router, my blog metadata is sourced from Contentful CMS. So, if I want to publish a quick metadata change from Contentful, I’d need to rebuild and redeploy everything on GitHub to update the static files. This wasn't particularly an issue with pure client-side rendering, as I was simply using a script to request data from the API during runtime.
+
+Of course I could have done all of that manually too, which wouldn't be very error-prone, owing to the scale of this project. But I was like- it is still inconvenient. What better time than now to streamline this workflow with GitHub Actions!
+
+## No more Hash Routing
+
+Gone are the days of hash routing! yay!
+
+No more hacks or side effects to circumvent problems related to it.
+
+Since, whenever we visit a valid route, there is a html file PRESENT for it, which means we no longer need the workarounds I discussed in my previous blog.[^3]
+
+[^3]: Karunika, 2024. [This is what happens when you use react-router with Github Pages](https://karunika.work/blog/3QgdcvaiDnPbgONGgGQupN)
+
+I’ll keep my earlier post up for anyone still wrestling with those issues, especially if they aren’t too concerned with SEO or social media previews. It can still be a helpful resource for a hash-routing setup.
+
+## GitHub Workflow
+
+Alright, let’s dive in.
+
+While I’ve worked with CI/CD setups in past roles, writing workflows myself is a new territory for me.
+
+> It’s worth noting that GitHub Workflows can automate a variety of tasks beyond CI/CD—they’re designed to streamline all kinds of GitHub-related jobs.
+
+Let’s take this step-by-step!
+
+#### Name
+
+```yaml
+name: Deploy to GitHub Pages
+```
+
+Every GitHub Workflow file starts with a name you assign it.
+
+This is the name that appears in the side pane under the actions tab on GitHub.
+
+![side pane action tab workflows](//images.ctfassets.net/ud4ywsjg17po/2icgzSjrO8gmwmF9phSHf7/380716bc7ff6cd0f29b52b686854634f/image.png)
+
+GitHub will then display a `yaml` file name for when you do not provide a `name`.
+
+#### Events
+
+```yaml
+on:
+  workflow_dispatch:
+  repository_dispatch:
+```
+
+The `on` keyword defines the `events` that trigger your workflow’s `jobs`. Events could include actions like committing, pushing, merging, pull requests, creating issues, closing issues, making a new branches, and [many more](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows).
+
+For example, for a `push` event, your yaml file must look something like this:
+
+```yaml
+on:
+  push
+```
+
+You can also make it more specific by defining criterias such as which branch to listen to, filters, pattern matching, and other options.
+
+`workflow_dispatch` enables you to manually dispatch events, by automatically granting you access to "Run Workflow" button in the Actions tab, under the corresponing Workflow.
+
+`repository_dispatch` enables you to integerate with third party applications, by allowing them to trigger events.
+
+#### The meat of Workflows: Jobs
+
+At the core of the workflow lies, none other than the actual sequence of instructions that run in a workflow i.e., [`Jobs`](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobs).
+
+There could be multiple jobs. However, here we are only going to take a look over a simple case.
+
+Here’s what jobs look like:
+
+```yaml
+jobs:
+  build:
+    // ...
+```
+This code snippet tells GitHub that the jobs section has started. Each job requires an identifier; in this case, build serves as our job identifier.
+
+You can add multiple jobs in the same workflow, like so:
+```yaml
+jobs:
+  build:
+    // ...
+
+  test:
+    // ...
+```
+
+Whenever you run a workflow all the jobs run concurrently. So naturally, they must be independent of each other.
+
+It's under a job we can specify the platform it shall [run on](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps).
+
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    // ...
+```
+
+#### Steps
+
+Now the actual constituent instructions that make up a job are called [steps](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps). They are grouped under `steps` label.
+
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run predeploy
+        env:
+          NEXT_PUBLIC_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_ACCESS_TOKEN }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist
+```
+
+I really hadn't intended to overwhelm you with that, but sometimes I know no better.
+
+These steps run *sequentially* i.e., one after the other.
+
+Alirght, now let's break down that `yaml` file I just sent your way lol.
+
+As stated earlier, this part is responsible for starting the jobs sections and a specific job `build`.
+
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    // ...
+
+```
+The part we are majorly concerned with right now, is the section under the `steps` label.
+
+Before we dive any further, we must note that there are 2 broad categories of the type of steps:
+
+1. __Command-line Instructions__: Executing shell commands directly.
+2. __Pre-built GitHub Actions__: Using reusable instructions, similar to libraries in programming.
+
+There are developers out there who have already wrote series of instructions for us, making our job easier, just like library developers.
+
+```yaml
+        // ...
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+        // ...
+```
+
+If we use a pre-written GitHub Action, we use [uses](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsuses) keyword.
+
+[Checkout v4](https://github.com/actions/checkout), as the name suggests, checks-out your repository under `$GITHUB_WORKSPACE`.
+
+> The [GitHub documentation](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables#default-environment-variables) defines `$GITHUB_WORKSPACE` as- the default working directory on the runner for steps, and the default location of your repository when using the checkout action.
+
+Now we can setup our environment in the `$GITHUB_WORKSPACE`. And again I use a package to do that instead of manually downloading a system package manager, downloading node, and worrying about all the edge cases.
+
+```yaml
+        // ...
+
+      - name: Setup Node Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+        // ...
+```
+
+Has there ever been a javascript project without `node_modules`?
+
+```yaml
+        // ...
+
+      - name: Install dependencies
+        run: npm install
+
+        // ...
+```
+
+We, then, build the project.
+
+```yaml
+      - name: Build project
+        run: npm run predeploy
+        env:
+          NEXT_PUBLIC_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_ACCESS_TOKEN }}
+```
+
+Here's where you can set all the env variables utilized in your app. You can configure these in the repository settings under __Secrets and variables__:
+
+![github actions secrets](//images.ctfassets.net/ud4ywsjg17po/2eY7xmppOq71UpazPCGyjN/e4e3bc99d98b0c2a606428f41cd1c53b/image.png)
+
+And then we finally deploy!
+
+```yaml
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist
+```
+
+Oh wait.
+
+To create a SSH Deploy Key, you can checkout [this guide](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-create-ssh-deploy-key).
+
+> Note: Make sure there are no trailing new lines in the key when you paste it on GitHub.
+
+## Building Next App
+
+By default, gh-pages do not server \_next folder. So to get that to work you just have to add `.nojekyll` to the root of you build folder. 
+
+You could add the `.nojekyll` file directly in your build folder, after the building is done.
+
+`touch ./dist/.nojekyll`
+
+However, the [GitHub Pages Action](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-enable-built-in-jekyll-enable_jekyll)
+ offer an even cleaner solution:
+
+```yaml
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist
+          enable_jekyll: true
+```
+
+Using `enable_jekyll: true` skips the need for `.nojekyll` in the build folder, and I find it to be a much cleaner approach.
+
+## Setup Contentful Webhook
+
+To trigger a dispatch from a third-party app like Contentful, you’ll need to make a POST request to GitHub's [repository dispatch endpoint](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#create-a-repository-dispatch-event).
+
+Here it says,
+
+> OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.
+
+So we are first gonna generate one Classic personal access token. We go to `GitHub > Profile > Settings > Developer settings > Personal access tokens > Tokens (classic)`
+
+And there you can generate a new token.
+
+Generate a new token and ensure it includes the repo scope.
+
+![github personal access token scope](//images.ctfassets.net/ud4ywsjg17po/3wwIggEbfn8GCMbx7rYGuK/2c7acb8d9c087361d15619c980ce7268/image.png)
+
+Copy this token somewhere safe, as it won’t be visible again after you leave the page.
+
+Time to headover to Contentful!
+
+![contentful settings](//images.ctfassets.net/ud4ywsjg17po/2nkYAfscHNZXNOZB4bDGAy/5b642700fd0c7c5679767add566bc884/image.png)
+
+In the space settings, locate Webhooks and create a new webhook.
+
+![contentful webhook name and url](//images.ctfassets.net/ud4ywsjg17po/2m45MG3turCKB5g7eP7czr/ddd821173885140c64366ca5aa7614e5/image.png)
+
+Give it a name and the GitHub API endpoint `https://api.github.com/repos/{owner}/{repo}/dispatches`.
+
+Scroll down, and choose what actions on contentful do you want to trigger the GitHub workflow.
+
+![contentful webhook triggers](//images.ctfassets.net/ud4ywsjg17po/167N3R9jz6tSVgxov5RbKN/208182e2031542e0674387511d8bef85/image.png)
+
+Then, set the header.
+
+![contentful webhook headers](//images.ctfassets.net/ud4ywsjg17po/5n0Yyr7M5hK2QJ0pvPnYRP/e28727772ddd7a38b2fb2d8c93cffdfd/image.png)
+
+Give it the the Authorization token we generated and make sure you use the right syntax for the value i.e., 
+`Bearer <GITHUB_PERSONAL_ACCESS_TOKEN>`.
+
+All these headers are well documented in the [repository dispatch endpoint docs](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#create-a-repository-dispatch-event).
+
+Except `User-Agent`.
+
+It took me couple of unsuccessful triggers to realise we also need an [User-Agent header](https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28#user-agent) so that GitHub can identify the user or the application that is making the request.
+
+I personally went with my on GitHub username.
+
+The body requires a `event_type` parameter, where you can name your custom Webhook `event`.
+
+![contentful webhook payload](//images.ctfassets.net/ud4ywsjg17po/7GPfJaYwLyBk7Aoyr0RjTW/66b2a1819f95ac7c47195efe422d3f70/image.png)
+
+Now, update your `deploy.yml` file to trigger the workflow only when publish_contentful_event occurs:
+
+```yaml
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    type: [publish_contentful_event]
+```
+
+Here we change the `yaml` file to make it so that the workflow run is triggered by `publish_contentful_event`.
+
+You can optionally also accept `client_payload` for other information, but make sure to also include it in the Contentful Webhook payload.
+
+For debugging purposes, do not forget to checkout the activity log section of Webhook:
+
+![contentful webhook activity log](//images.ctfassets.net/ud4ywsjg17po/bzqcN4ekWmqFVP4Q7AZhh/af13826866363503199edfe8cfa9bf94/image.png)
+
+## Voilà!
+
+Alas!
+
+So finally, I don't have to bother myself with the hassle of opening my VSCode, running build scripts and deploying manually. Or even ever open GitHub to run workflow manually.
+
+![contentful publish button](//images.ctfassets.net/ud4ywsjg17po/uO9xRjhedwnaDLebgAcYg/7cc78ce0894d67b5eaa160175659f84e/image-removebg-preview.png)
+
+Now, I can create, edit, and delete blogs all in one place. With a single Publish click, the entire workflow takes care of itself. ✨
+b:{"id":"2bA7t3vgJ8fuGYD1wjA6ah","createdAt":"October 27th, 2024 8:35 PM","title":"Here's what I did not tell you about my Portfolio Website","thumbnail":"https://images.ctfassets.net/ud4ywsjg17po/4cfpWRx4nfzOn37KvWs6DP/7d70510f20fd97926064a76a103c8d9b/image.png","thumbnailCourtesy":"https://unsplash.com/photos/a-close-up-of-a-computer-mouse-PYyPeCHonnc","thumbnailCourtesyText":" Growtika","data":"$c","keywords":"github actions, nextjs, contentful"}
+2:[["$","$L8",null,{"item":{"id":"2bA7t3vgJ8fuGYD1wjA6ah","createdAt":"October 27th, 2024 8:35 PM","title":"Here's what I did not tell you about my Portfolio Website","thumbnail":"https://images.ctfassets.net/ud4ywsjg17po/4cfpWRx4nfzOn37KvWs6DP/7d70510f20fd97926064a76a103c8d9b/image.png","thumbnailCourtesy":"https://unsplash.com/photos/a-close-up-of-a-computer-mouse-PYyPeCHonnc","thumbnailCourtesyText":" Growtika","data":"$9","keywords":"github actions, nextjs, contentful"}}],["$","$La",null,{"item":"$b"}]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Here's what I did not tell you about my Portfolio Website"}],["$","meta","3",{"name":"keywords","content":"github actions,nextjs,contentful"}],["$","meta","4",{"property":"og:title","content":"Here's what I did not tell you about my Portfolio Website"}],["$","meta","5",{"property":"og:description","content":"github actions, nextjs, contentful"}],["$","meta","6",{"property":"og:locale","content":"en_US"}],["$","meta","7",{"property":"og:image","content":"https://images.ctfassets.net/ud4ywsjg17po/4cfpWRx4nfzOn37KvWs6DP/7d70510f20fd97926064a76a103c8d9b/image.png"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Here's what I did not tell you about my Portfolio Website"}],["$","meta","10",{"name":"twitter:description","content":"github actions, nextjs, contentful"}],["$","meta","11",{"name":"twitter:image","content":"https://images.ctfassets.net/ud4ywsjg17po/4cfpWRx4nfzOn37KvWs6DP/7d70510f20fd97926064a76a103c8d9b/image.png"}],["$","link","12",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
 1:null
