@@ -17,6 +17,7 @@ interface props {
 
 const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = false, sx }: props) => {
     const theme = useTheme()
+
     return (
         <Container
             sx={{
@@ -31,29 +32,19 @@ const SectionLayout = ({ children, name, odd = false, fullHeight = false, col = 
                 }
             }}
         >
-            <Element name={name} style={{ flex: 1 }}>
+            <Element name={name} style={{
+                flex: 1,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+            }}>
 
                 <Box sx={{
-                    px: 32,
                     py: 10,
                     flex: 1,
                     display: 'flex',
                     flexDirection: 'column',
-                    [theme.breakpoints.down(1200)]: {
-                        px: 16
-                    },
-                    [theme.breakpoints.down(1000)]: {
-                        px: 10
-                    },
-                    [theme.breakpoints.down(833)]: {
-                        px: 6,
-                    },
-                    [theme.breakpoints.down(600)]: {
-                        px: 2,
-                    },
-                    [theme.breakpoints.down(400)]: {
-                        px: 0,
-                    },
+                    maxWidth: 800,
                     ...sx
                 }}>
                     {children}

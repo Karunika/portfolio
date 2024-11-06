@@ -10,8 +10,6 @@ import Typography from '@mui/joy/Typography'
 import Codeblock from "./codeblock"
 import { Components } from 'react-markdown/lib'
 
-
-
 const config: Partial<Components> = {
     pre: ({ children, ...props }) => <Codeblock {...props}>{children}</Codeblock>,
     h1: ({ children }) => <Typography level='h2'> {children} </Typography>,
@@ -56,7 +54,7 @@ const config: Partial<Components> = {
     img: ({ src, alt }) => {
         return (
             <span style={{
-                width: '100%',
+                maxWidth: 'calc(100vw - 48px)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center'

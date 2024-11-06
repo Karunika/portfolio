@@ -1,27 +1,26 @@
 'use client'
 
-import React from 'react'
-import { useRouter } from 'next/navigation'
+import Markdown from '../_components/markdown'
 import Giscus from '@giscus/react'
-import SectionLayout from '../../_components/sectionLayout'
+import SectionLayout from '../../../_components/sectionLayout'
+import Typography from '@mui/joy/Typography'
 import Link from '@mui/joy/Link'
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos'
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
-    const router = useRouter()
-
-    const backClickHandler = () => {
-        router.back()
-    }
-
+const Body = ({ item }: { item: any }) => {
     return (
-        <SectionLayout fullHeight name='layout'>
-            <Link sx={{ mt: -4 }} onClick={backClickHandler}>
-                <ArrowBackIosIcon />
-                Go back
-            </Link>
 
-            {children}
+        <SectionLayout fullHeight name='layout'>
+
+            <Typography sx={{ mt: 1 }} level='body-sm'>
+                Image Courtesy:
+                <Link href={item.thumbnailCourtesyLink} target='_blank' sx={{ ml: 1 }}>
+                    {item.thumbnailCourtesyText}
+                </Link>
+            </Typography>
+
+            <Markdown>
+                {item.data}
+            </Markdown>
 
             <Giscus
                 id="comments"
@@ -42,4 +41,4 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     )
 }
 
-export default Layout
+export default Body

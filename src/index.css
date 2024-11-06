@@ -69,29 +69,17 @@ svg text {
 	}
 }
 
-.skills {
-  maxWidth: 50%;
-}
-
-@media only screen and (max-width: 800px) {
-  .skills {
-    maxWidth: 100%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .construction {
-    margin-top: 100px;
-  }
-}
-
-.md-container {
-  max-width: 100%;
-}
-
 .md-container > *{
   margin-top: 2rem !important;
   margin-bottom: 2rem !important;
+}
+.md-container > p, h1, h2, h3, h4, h5, h6, .md-containern > p > code{
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  max-width: calc(100vw - 24px);
 }
 
 .anchor {
