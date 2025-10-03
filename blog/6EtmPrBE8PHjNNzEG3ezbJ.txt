@@ -2,190 +2,190 @@
 5:I[36423,[],""]
 6:I[66563,["734","static/chunks/734-cd2378a063775833.js","257","static/chunks/257-fb39485088bc381c.js","151","static/chunks/151-178bb7f994ec5dbe.js","185","static/chunks/app/layout-1eb837c4049a4254.js"],"default",1]
 4:["id","6EtmPrBE8PHjNNzEG3ezbJ","d"]
-0:["lkVFoj5bLePhC-M0mJ6k2",[[["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__?{\"id\":\"6EtmPrBE8PHjNNzEG3ezbJ\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0604d23b1d0373eb.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L6",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L7",null]]]]
+0:["GUe1l0DpRO5aIdsrhrjDP",[[["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__?{\"id\":\"6EtmPrBE8PHjNNzEG3ezbJ\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0604d23b1d0373eb.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L6",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L7",null]]]]
 8:I[37162,["734","static/chunks/734-cd2378a063775833.js","373","static/chunks/373-a2711d73c10e468b.js","480","static/chunks/480-80e63cee899b7f26.js","864","static/chunks/864-49b2002574c29c58.js","548","static/chunks/app/blog/%5Bid%5D/page-9cb34422790b60a8.js"],"default"]
 a:I[56445,["734","static/chunks/734-cd2378a063775833.js","373","static/chunks/373-a2711d73c10e468b.js","480","static/chunks/480-80e63cee899b7f26.js","864","static/chunks/864-49b2002574c29c58.js","548","static/chunks/app/blog/%5Bid%5D/page-9cb34422790b60a8.js"],"default"]
+9:T18f9,Believe it or not the first section of this blog was something that was added in the last.
+
+So let's just take a quick glance over how processor works.
+
+A processor fetches instructions, executes them, and writes the results back to the specified locations. A script you write is essentially just a sequence of instructions that the CPU runs one by one. However, modern computers can run multiple processes in truly-parallel or in pseudo-parallel (concurrent) fashion. The distinction would go a little beyond the scope of this blog, so we’ll skip it here—but the key takeaway is this: because of parallelism, a process’s execution speed won’t be uniform and probably not even reproducible if the same processes are run again.
+
+Now, sometimes processes need to communicate or share data. Consider two processes accessing the same variable and modifying it. Process `A` might read the variable’s value, but before it finishes computing, process `B` could read and mutate that same variable. Suddenly, `A` is working with an outdated value, and if your program relies on it, the results can be inconsistent—or downright disastrous—especially in large systems.
+
+This is a type of software bug caused by a race condition. The example we just discussed is called time-of-check to time-of-use (TOCTOU, TOCTTOU, or TOC/TOU). As the name suggests, it involves checking the state of a system component and then acting on that check. If the system changes between the check and the action, unexpected or incorrect behavior can occur.
+
+Believe it or not, at the 2023 [Pwn2Own](https://en.wikipedia.org/wiki/Pwn2Own) competition in Vancouver, a team of hackers managed to exploit this very bug to compromise the gateway of a fully updated Tesla Model 3.[^1]
+
+[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023](https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
+
+## Peterson's Algorithm: The Bathroom Saga of Two Polite Processes
+
+```c
+#define FALSE 0
+#define TRUE 1
+#define N 2
+
+int turn; int interested[N];
+
+void enter_region(int process)
+{
+    int other;
+    other = 1− process;
+    interested[process] = TRUE;
+    tur n = process;
+    while (turn == process && interested[other] == TRUE) ;
+}
+
+void leave_region(int process) {
+    interested[process] = FALSE;
+}
+```
+Stumbled accross this piece in the classic [Modern Operating Systems](https://en.wikipedia.org/wiki/Modern_Operating_Systems) (actually a couple of years ago, not recently). And back then it had me scratching my head, pondering it's meaning and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
+
+Here’s my attempt, for any curious minds out there.
+
+The first two lines in the `enter_region` function are pretty easy to wrap your head around, they simply calculate the `id` of the other process. It’s worth noting that, although this algorithm is designed for 2 processes, extending it to `N` processes wouldn’t be too difficult.
+
+This is a fairly neat solution developed by Gary L. Peterson in 1981, and I must say, despite the simplicity of its implementation, I’m always astounded at how hard it was for me to wrap my head around it—let alone invent it.
+
+This one almost pulled a KMP algorithm. Well, not really. KMP algorithm is it's own tier lol.
+
+The idea is simple. Each process, during its turn assigned by the CPU, gets a 'voice' to express its desire to enter the critical region. Oh before we dive furthe into this, if there’s one thing I could change about this code, it would be the variable name `turn`. Honestly, something like `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` would be more… descriptive. Just sayin'.
+
+It’s like taking turns for the toilet—and hey, it’s 2025, toilets are basically a luxury now. You signal your interest and stand in line… and just then, a two-year-old bursts in, unable to hold it. You sigh, heroically set `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` to true, and let him go first. But wait—polite reminder: it was my turn! I’m just generously lending it to you because, well… `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done`.
+
+Well, I’m interested, but since I’m so nice, I’ll wait— and the while condition beautifully encapsulates that idea.
+
+So, yeah it is my turn and you want to use bath so go, but as soon as you are done i.e., you are not interested in the toilet anymore you better come out and let me go in.
+
+But again: as soon as you’re done—that is, as soon as you’re no longer interested in the toilet—you better come out and express your lack of desire in the leave_region function, so I can finally take my `turn` back kiddo.
+
+After all, the `while` loop exists to make me patient… not to let you hog the bathroom forever!
+
+Two Processes, One Toilet, Zero Fights: A Concurrency Story.
+
+## Simple and Correct
+
+The brilliance here lies in the simplicity: with just two flags (interested) and one courtesy variable (turn).
+
+It ensures:
+
+- Mutual Exclusion – Only one process is in the critical region at a time.
+- Progress – If one process doesn’t care, the other gets in.
+- Fairness – No one gets skipped forever.
+
+Precursors to Peterson's Solutions like Disabling Interrupts, Simple Locks or Strict Alteration had those issues. Want me to expand on these? Comment section for ya mah' folks, just let me know yaknow?
+
+## So what do we learn here?
+
+Peterson’s solution is like a masterclass in humility:
+
+- Always express your intent.
+- Always be nice enough to yield.
+- And always trust that the other person will let you in when they’re done.
+
+That’s it. Two lines of code, and humanity’s politeness distilled into an algorithm.
+
+## Careful
+
+Yes, modern computers no longer execute instructions in lockstep. Processors are like caffeinated squirrels, jumping ahead, reordering instructions, and doing a million things at once.
+
+But does that stop me from marveling at Peterson’s Algorithm?
+
+Well, clearly not.
+
+Of course, there are better solutions out there, ones that leverage the hardware’s ability to make certain instructions atomic and eliminate the issue __Priority Inversion Problem__. What's that? That’s something for another time!c:T18f9,Believe it or not the first section of this blog was something that was added in the last.
+
+So let's just take a quick glance over how processor works.
+
+A processor fetches instructions, executes them, and writes the results back to the specified locations. A script you write is essentially just a sequence of instructions that the CPU runs one by one. However, modern computers can run multiple processes in truly-parallel or in pseudo-parallel (concurrent) fashion. The distinction would go a little beyond the scope of this blog, so we’ll skip it here—but the key takeaway is this: because of parallelism, a process’s execution speed won’t be uniform and probably not even reproducible if the same processes are run again.
+
+Now, sometimes processes need to communicate or share data. Consider two processes accessing the same variable and modifying it. Process `A` might read the variable’s value, but before it finishes computing, process `B` could read and mutate that same variable. Suddenly, `A` is working with an outdated value, and if your program relies on it, the results can be inconsistent—or downright disastrous—especially in large systems.
+
+This is a type of software bug caused by a race condition. The example we just discussed is called time-of-check to time-of-use (TOCTOU, TOCTTOU, or TOC/TOU). As the name suggests, it involves checking the state of a system component and then acting on that check. If the system changes between the check and the action, unexpected or incorrect behavior can occur.
+
+Believe it or not, at the 2023 [Pwn2Own](https://en.wikipedia.org/wiki/Pwn2Own) competition in Vancouver, a team of hackers managed to exploit this very bug to compromise the gateway of a fully updated Tesla Model 3.[^1]
+
+[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023](https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
+
+## Peterson's Algorithm: The Bathroom Saga of Two Polite Processes
+
+```c
+#define FALSE 0
+#define TRUE 1
+#define N 2
+
+int turn; int interested[N];
+
+void enter_region(int process)
+{
+    int other;
+    other = 1− process;
+    interested[process] = TRUE;
+    tur n = process;
+    while (turn == process && interested[other] == TRUE) ;
+}
+
+void leave_region(int process) {
+    interested[process] = FALSE;
+}
+```
+Stumbled accross this piece in the classic [Modern Operating Systems](https://en.wikipedia.org/wiki/Modern_Operating_Systems) (actually a couple of years ago, not recently). And back then it had me scratching my head, pondering it's meaning and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
+
+Here’s my attempt, for any curious minds out there.
+
+The first two lines in the `enter_region` function are pretty easy to wrap your head around, they simply calculate the `id` of the other process. It’s worth noting that, although this algorithm is designed for 2 processes, extending it to `N` processes wouldn’t be too difficult.
+
+This is a fairly neat solution developed by Gary L. Peterson in 1981, and I must say, despite the simplicity of its implementation, I’m always astounded at how hard it was for me to wrap my head around it—let alone invent it.
+
+This one almost pulled a KMP algorithm. Well, not really. KMP algorithm is it's own tier lol.
+
+The idea is simple. Each process, during its turn assigned by the CPU, gets a 'voice' to express its desire to enter the critical region. Oh before we dive furthe into this, if there’s one thing I could change about this code, it would be the variable name `turn`. Honestly, something like `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` would be more… descriptive. Just sayin'.
+
+It’s like taking turns for the toilet—and hey, it’s 2025, toilets are basically a luxury now. You signal your interest and stand in line… and just then, a two-year-old bursts in, unable to hold it. You sigh, heroically set `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` to true, and let him go first. But wait—polite reminder: it was my turn! I’m just generously lending it to you because, well… `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done`.
+
+Well, I’m interested, but since I’m so nice, I’ll wait— and the while condition beautifully encapsulates that idea.
+
+So, yeah it is my turn and you want to use bath so go, but as soon as you are done i.e., you are not interested in the toilet anymore you better come out and let me go in.
+
+But again: as soon as you’re done—that is, as soon as you’re no longer interested in the toilet—you better come out and express your lack of desire in the leave_region function, so I can finally take my `turn` back kiddo.
+
+After all, the `while` loop exists to make me patient… not to let you hog the bathroom forever!
+
+Two Processes, One Toilet, Zero Fights: A Concurrency Story.
+
+## Simple and Correct
+
+The brilliance here lies in the simplicity: with just two flags (interested) and one courtesy variable (turn).
+
+It ensures:
+
+- Mutual Exclusion – Only one process is in the critical region at a time.
+- Progress – If one process doesn’t care, the other gets in.
+- Fairness – No one gets skipped forever.
+
+Precursors to Peterson's Solutions like Disabling Interrupts, Simple Locks or Strict Alteration had those issues. Want me to expand on these? Comment section for ya mah' folks, just let me know yaknow?
+
+## So what do we learn here?
+
+Peterson’s solution is like a masterclass in humility:
+
+- Always express your intent.
+- Always be nice enough to yield.
+- And always trust that the other person will let you in when they’re done.
+
+That’s it. Two lines of code, and humanity’s politeness distilled into an algorithm.
+
+## Careful
+
+Yes, modern computers no longer execute instructions in lockstep. Processors are like caffeinated squirrels, jumping ahead, reordering instructions, and doing a million things at once.
+
+But does that stop me from marveling at Peterson’s Algorithm?
+
+Well, clearly not.
+
+Of course, there are better solutions out there, ones that leverage the hardware’s ability to make certain instructions atomic and eliminate the issue __Priority Inversion Problem__. What's that? That’s something for another time!b:{"id":"6EtmPrBE8PHjNNzEG3ezbJ","createdAt":"October 3rd, 2025 8:09 AM","title":"Peterson's Algorithm: The Polite Programmer’s Guide to IPC","thumbnail":"https://images.ctfassets.net/ud4ywsjg17po/7fK0hHSOYLgvlxbzfFH35N/cd6ea92a65314acabd3f6e470f92ade6/pexels-pixabay-163170.jpg","thumbnailCourtesy":"https://www.pexels.com/photo/green-black-and-white-computer-chip-circuit-163170/","thumbnailCourtesyText":"Pixabay","data":"$c","keywords":"inter-process communications"}
+2:[["$","$L8",null,{"item":{"id":"6EtmPrBE8PHjNNzEG3ezbJ","createdAt":"October 3rd, 2025 8:09 AM","title":"Peterson's Algorithm: The Polite Programmer’s Guide to IPC","thumbnail":"https://images.ctfassets.net/ud4ywsjg17po/7fK0hHSOYLgvlxbzfFH35N/cd6ea92a65314acabd3f6e470f92ade6/pexels-pixabay-163170.jpg","thumbnailCourtesy":"https://www.pexels.com/photo/green-black-and-white-computer-chip-circuit-163170/","thumbnailCourtesyText":"Pixabay","data":"$9","keywords":"inter-process communications"}}],["$","$La",null,{"item":"$b"}]]
 7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Peterson's Algorithm: The Polite Programmer’s Guide to IPC"}],["$","meta","3",{"name":"keywords","content":"inter-process communications"}],["$","meta","4",{"property":"og:title","content":"Peterson's Algorithm: The Polite Programmer’s Guide to IPC"}],["$","meta","5",{"property":"og:description","content":"inter-process communications"}],["$","meta","6",{"property":"og:locale","content":"en_US"}],["$","meta","7",{"property":"og:image","content":"https://images.ctfassets.net/ud4ywsjg17po/7fK0hHSOYLgvlxbzfFH35N/cd6ea92a65314acabd3f6e470f92ade6/pexels-pixabay-163170.jpg"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Peterson's Algorithm: The Polite Programmer’s Guide to IPC"}],["$","meta","10",{"name":"twitter:description","content":"inter-process communications"}],["$","meta","11",{"name":"twitter:image","content":"https://images.ctfassets.net/ud4ywsjg17po/7fK0hHSOYLgvlxbzfFH35N/cd6ea92a65314acabd3f6e470f92ade6/pexels-pixabay-163170.jpg"}],["$","link","12",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"512x512"}]]
 1:null
-9:T18c8,Believe it or not the first section of this blog was something that was added in the last.
-
-So let's just take a quick glance over how processor works.
-
-A processor fetches instructions, executes them, and writes the results back to the specified locations. A script you write is essentially just a sequence of instructions that the CPU runs one by one. However, modern computers can run multiple processes in truly-parallel or in pseudo-parallel (concurrent) fashion. The distinction would go a little beyond the scope of this blog, so we’ll skip it here—but the key takeaway is this: because of parallelism, a process’s execution speed won’t be uniform and probably not even reproducible if the same processes are run again.
-
-Now, sometimes processes need to communicate or share data. Consider two processes accessing the same variable and modifying it. Process `A` might read the variable’s value, but before it finishes computing, process `B` could read and mutate that same variable. Suddenly, `A` is working with an outdated value, and if your program relies on it, the results can be inconsistent—or downright disastrous—especially in large systems.
-
-This is a type of software bug caused by a race condition. The example we just discussed is called time-of-check to time-of-use (TOCTOU, TOCTTOU, or TOC/TOU). As the name suggests, it involves checking the state of a system component and then acting on that check. If the system changes between the check and the action, unexpected or incorrect behavior can occur.
-
-Believe it or not, at the 2023 [Pwn2Own](https://en.wikipedia.org/wiki/Pwn2Own) competition in Vancouver, a team of hackers managed to exploit this very bug to compromise the gateway of a fully updated Tesla Model 3.[^1]
-
-[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023](https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
-
-## Peterson's Algorithm: The Bathroom Saga of Two Polite Processes
-
-```c
-#define FALSE 0
-#define TRUE 1
-#define N 2
-
-int turn; int interested[N];
-
-void enter_region(int process)
-{
-    int other;
-    other = 1− process;
-    interested[process] = TRUE;
-    tur n = process;
-    while (turn == process && interested[other] == TRUE) ;
-}
-
-void leave_region(int process) {
-    interested[process] = FALSE;
-}
-```
-Stumbled accross this piece in the classic [Modern Operating Systems](https://en.wikipedia.org/wiki/Modern_Operating_Systems) (actually a couple of years ago, not recently). And back then it had me scratching my head, pondering it's meaning and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
-
-Here’s my attempt, for any curious minds out there.
-
-The first two lines in the `enter_region` function are pretty easy to wrap your head around, they simply calculate the `id` of the other process. It’s worth noting that, although this algorithm is designed for 2 processes, extending it to `N` processes wouldn’t be too difficult.
-
-This is a fairly neat solution developed by Gary L. Peterson in 1981, and I must say, despite the simplicity of its implementation, I’m always astounded at how hard it was for me to wrap my head around it—let alone invent it.
-
-This one almost pulled a KMP algorithm. Well, not really. KMP algorithm is it's own tier lol.
-
-The idea is simple. Each process, during its turn assigned by the CPU, gets a 'voice' to express its desire to enter the critical region. Oh before we dive furthe into this, if there’s one thing I could change about this code, it would be the variable name `turn`. Honestly, something like `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` would be more… descriptive. Just sayin'.
-
-It’s like taking turns for the toilet—and hey, it’s 2025, toilets are basically a luxury now. You signal your interest and stand in line… and just then, a two-year-old bursts in, unable to hold it. You sigh, heroically set `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` to true, and let him go first. But wait—polite reminder: it was my turn! I’m just generously lending it to you because, well… `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done`.
-
-Well, I’m interested, but since I’m so nice, I’ll wait— and the while condition beautifully encapsulates that idea.
-
-So, yeah it is my turn and you want to use bath so go, but as soon as you are done i.e., you are not interested in the toilet anymore you better come out and let me go in.
-
-But again: as soon as you’re done—that is, as soon as you’re no longer interested in the toilet—you better come out and express your lack of desire in the leave_region function, so I can finally take my `turn` back kiddo.
-
-After all, the `while` loop exists to make me patient… not to let you hog the bathroom forever!
-
-Two Processes, One Toilet, Zero Fights: A Concurrency Story.
-
-## Simple and Correct
-
-The brilliance here lies in the simplicity: with just two flags (interested) and one courtesy variable (turn).
-
-It ensures:
-
-- Mutual Exclusion – Only one process is in the critical region at a time.
-- Progress – If one process doesn’t care, the other gets in.
-- Fairness – No one gets skipped forever.
-
-Precursors to Peterson's Solutions like Disabling Interrupts, Busy Waiting, Simple Locks or Strict Alteration had those issues. Want me to expand on these? Comment section for ya mah' folks, just let me know yaknow?
-
-## So what do we learn here?
-
-Peterson’s solution is like a masterclass in humility:
-
-- Always express your intent.
-- Always be nice enough to yield.
-- And always trust that the other person will let you in when they’re done.
-
-That’s it. Two lines of code, and humanity’s politeness distilled into an algorithm.
-
-## Careful
-
-Yes, modern computers no longer execute instructions in lockstep. Processors are like caffeinated squirrels, jumping ahead, reordering instructions, and doing a million things at once.
-
-But does that stop me from marveling at Peterson’s Algorithm?
-
-Well, clearly note.
-
-Of course, there are better solutions out there, ones that leverage the hardware’s ability to make certain instructions atomic. But that’s a journey for another time!c:T18c8,Believe it or not the first section of this blog was something that was added in the last.
-
-So let's just take a quick glance over how processor works.
-
-A processor fetches instructions, executes them, and writes the results back to the specified locations. A script you write is essentially just a sequence of instructions that the CPU runs one by one. However, modern computers can run multiple processes in truly-parallel or in pseudo-parallel (concurrent) fashion. The distinction would go a little beyond the scope of this blog, so we’ll skip it here—but the key takeaway is this: because of parallelism, a process’s execution speed won’t be uniform and probably not even reproducible if the same processes are run again.
-
-Now, sometimes processes need to communicate or share data. Consider two processes accessing the same variable and modifying it. Process `A` might read the variable’s value, but before it finishes computing, process `B` could read and mutate that same variable. Suddenly, `A` is working with an outdated value, and if your program relies on it, the results can be inconsistent—or downright disastrous—especially in large systems.
-
-This is a type of software bug caused by a race condition. The example we just discussed is called time-of-check to time-of-use (TOCTOU, TOCTTOU, or TOC/TOU). As the name suggests, it involves checking the state of a system component and then acting on that check. If the system changes between the check and the action, unexpected or incorrect behavior can occur.
-
-Believe it or not, at the 2023 [Pwn2Own](https://en.wikipedia.org/wiki/Pwn2Own) competition in Vancouver, a team of hackers managed to exploit this very bug to compromise the gateway of a fully updated Tesla Model 3.[^1]
-
-[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023](https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
-
-## Peterson's Algorithm: The Bathroom Saga of Two Polite Processes
-
-```c
-#define FALSE 0
-#define TRUE 1
-#define N 2
-
-int turn; int interested[N];
-
-void enter_region(int process)
-{
-    int other;
-    other = 1− process;
-    interested[process] = TRUE;
-    tur n = process;
-    while (turn == process && interested[other] == TRUE) ;
-}
-
-void leave_region(int process) {
-    interested[process] = FALSE;
-}
-```
-Stumbled accross this piece in the classic [Modern Operating Systems](https://en.wikipedia.org/wiki/Modern_Operating_Systems) (actually a couple of years ago, not recently). And back then it had me scratching my head, pondering it's meaning and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
-
-Here’s my attempt, for any curious minds out there.
-
-The first two lines in the `enter_region` function are pretty easy to wrap your head around, they simply calculate the `id` of the other process. It’s worth noting that, although this algorithm is designed for 2 processes, extending it to `N` processes wouldn’t be too difficult.
-
-This is a fairly neat solution developed by Gary L. Peterson in 1981, and I must say, despite the simplicity of its implementation, I’m always astounded at how hard it was for me to wrap my head around it—let alone invent it.
-
-This one almost pulled a KMP algorithm. Well, not really. KMP algorithm is it's own tier lol.
-
-The idea is simple. Each process, during its turn assigned by the CPU, gets a 'voice' to express its desire to enter the critical region. Oh before we dive furthe into this, if there’s one thing I could change about this code, it would be the variable name `turn`. Honestly, something like `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` would be more… descriptive. Just sayin'.
-
-It’s like taking turns for the toilet—and hey, it’s 2025, toilets are basically a luxury now. You signal your interest and stand in line… and just then, a two-year-old bursts in, unable to hold it. You sigh, heroically set `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done` to true, and let him go first. But wait—polite reminder: it was my turn! I’m just generously lending it to you because, well… `i_am_so_nice_what_can_i_say_i_will_wait_but_hey_you_better_not_skip_me_once_you_are_done`.
-
-Well, I’m interested, but since I’m so nice, I’ll wait— and the while condition beautifully encapsulates that idea.
-
-So, yeah it is my turn and you want to use bath so go, but as soon as you are done i.e., you are not interested in the toilet anymore you better come out and let me go in.
-
-But again: as soon as you’re done—that is, as soon as you’re no longer interested in the toilet—you better come out and express your lack of desire in the leave_region function, so I can finally take my `turn` back kiddo.
-
-After all, the `while` loop exists to make me patient… not to let you hog the bathroom forever!
-
-Two Processes, One Toilet, Zero Fights: A Concurrency Story.
-
-## Simple and Correct
-
-The brilliance here lies in the simplicity: with just two flags (interested) and one courtesy variable (turn).
-
-It ensures:
-
-- Mutual Exclusion – Only one process is in the critical region at a time.
-- Progress – If one process doesn’t care, the other gets in.
-- Fairness – No one gets skipped forever.
-
-Precursors to Peterson's Solutions like Disabling Interrupts, Busy Waiting, Simple Locks or Strict Alteration had those issues. Want me to expand on these? Comment section for ya mah' folks, just let me know yaknow?
-
-## So what do we learn here?
-
-Peterson’s solution is like a masterclass in humility:
-
-- Always express your intent.
-- Always be nice enough to yield.
-- And always trust that the other person will let you in when they’re done.
-
-That’s it. Two lines of code, and humanity’s politeness distilled into an algorithm.
-
-## Careful
-
-Yes, modern computers no longer execute instructions in lockstep. Processors are like caffeinated squirrels, jumping ahead, reordering instructions, and doing a million things at once.
-
-But does that stop me from marveling at Peterson’s Algorithm?
-
-Well, clearly note.
-
-Of course, there are better solutions out there, ones that leverage the hardware’s ability to make certain instructions atomic. But that’s a journey for another time!b:{"id":"6EtmPrBE8PHjNNzEG3ezbJ","createdAt":"October 3rd, 2025 8:09 AM","title":"Peterson's Algorithm: The Polite Programmer’s Guide to IPC","thumbnail":"https://images.ctfassets.net/ud4ywsjg17po/7fK0hHSOYLgvlxbzfFH35N/cd6ea92a65314acabd3f6e470f92ade6/pexels-pixabay-163170.jpg","thumbnailCourtesy":"https://www.pexels.com/photo/green-black-and-white-computer-chip-circuit-163170/","thumbnailCourtesyText":"Pixabay","data":"$c","keywords":"inter-process communications"}
-2:[["$","$L8",null,{"item":{"id":"6EtmPrBE8PHjNNzEG3ezbJ","createdAt":"October 3rd, 2025 8:09 AM","title":"Peterson's Algorithm: The Polite Programmer’s Guide to IPC","thumbnail":"https://images.ctfassets.net/ud4ywsjg17po/7fK0hHSOYLgvlxbzfFH35N/cd6ea92a65314acabd3f6e470f92ade6/pexels-pixabay-163170.jpg","thumbnailCourtesy":"https://www.pexels.com/photo/green-black-and-white-computer-chip-circuit-163170/","thumbnailCourtesyText":"Pixabay","data":"$9","keywords":"inter-process communications"}}],["$","$La",null,{"item":"$b"}]]
