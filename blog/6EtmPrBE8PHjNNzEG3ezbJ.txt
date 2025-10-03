@@ -2,10 +2,10 @@
 5:I[36423,[],""]
 6:I[66563,["734","static/chunks/734-cd2378a063775833.js","257","static/chunks/257-fb39485088bc381c.js","151","static/chunks/151-178bb7f994ec5dbe.js","185","static/chunks/app/layout-1eb837c4049a4254.js"],"default",1]
 4:["id","6EtmPrBE8PHjNNzEG3ezbJ","d"]
-0:["2HIrgnxV7c8CpJnrOQbc3",[[["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__?{\"id\":\"6EtmPrBE8PHjNNzEG3ezbJ\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0604d23b1d0373eb.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L6",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L7",null]]]]
+0:["TF5zLh5a1mmuuaVdONLM9",[[["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__?{\"id\":\"6EtmPrBE8PHjNNzEG3ezbJ\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["id","6EtmPrBE8PHjNNzEG3ezbJ","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0604d23b1d0373eb.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L6",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],"params":{}}]],null],null],["$L7",null]]]]
 8:I[37162,["734","static/chunks/734-cd2378a063775833.js","373","static/chunks/373-a2711d73c10e468b.js","480","static/chunks/480-80e63cee899b7f26.js","864","static/chunks/864-49b2002574c29c58.js","548","static/chunks/app/blog/%5Bid%5D/page-9cb34422790b60a8.js"],"default"]
 a:I[56445,["734","static/chunks/734-cd2378a063775833.js","373","static/chunks/373-a2711d73c10e468b.js","480","static/chunks/480-80e63cee899b7f26.js","864","static/chunks/864-49b2002574c29c58.js","548","static/chunks/app/blog/%5Bid%5D/page-9cb34422790b60a8.js"],"default"]
-9:T1819,Believe it or not the first section of this blog was something that was added in the last.
+9:T18c8,Believe it or not the first section of this blog was something that was added in the last.
 
 So let's just take a quick glance over how processor works.
 
@@ -17,8 +17,7 @@ This is a type of software bug caused by a race condition. The example we just d
 
 Believe it or not, at the 2023 [Pwn2Own](https://en.wikipedia.org/wiki/Pwn2Own) competition in Vancouver, a team of hackers managed to exploit this very bug to compromise the gateway of a fully updated Tesla Model 3.[^1]
 
-[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023]
-(https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
+[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023](https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
 
 ## Peterson's Algorithm: The Bathroom Saga of Two Polite Processes
 
@@ -42,7 +41,7 @@ void leave_region(int process) {
     interested[process] = FALSE;
 }
 ```
-This piece had me scratching my head, pondering it's meaning lol and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
+Stumbled accross this piece in the classic [Modern Operating Systems](https://en.wikipedia.org/wiki/Modern_Operating_Systems) (actually a couple of years ago, not recently). And back then it had me scratching my head, pondering it's meaning and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
 
 Here’s my attempt, for any curious minds out there.
 
@@ -96,7 +95,7 @@ But does that stop me from marveling at Peterson’s Algorithm?
 
 Well, clearly note.
 
-Of course, there are better solutions out there, ones that leverage the hardware’s ability to make certain instructions atomic. But that’s a journey for another time!c:T1819,Believe it or not the first section of this blog was something that was added in the last.
+Of course, there are better solutions out there, ones that leverage the hardware’s ability to make certain instructions atomic. But that’s a journey for another time!c:T18c8,Believe it or not the first section of this blog was something that was added in the last.
 
 So let's just take a quick glance over how processor works.
 
@@ -108,8 +107,7 @@ This is a type of software bug caused by a race condition. The example we just d
 
 Believe it or not, at the 2023 [Pwn2Own](https://en.wikipedia.org/wiki/Pwn2Own) competition in Vancouver, a team of hackers managed to exploit this very bug to compromise the gateway of a fully updated Tesla Model 3.[^1]
 
-[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023]
-(https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
+[^1]: [Windows 11, Tesla, Ubuntu, and macOS hacked at Pwn2Own 2023](https://www.bleepingcomputer.com/news/security/windows-11-tesla-ubuntu-and-macos-hacked-at-pwn2own-2023/)
 
 ## Peterson's Algorithm: The Bathroom Saga of Two Polite Processes
 
@@ -133,7 +131,7 @@ void leave_region(int process) {
     interested[process] = FALSE;
 }
 ```
-This piece had me scratching my head, pondering it's meaning lol and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
+Stumbled accross this piece in the classic [Modern Operating Systems](https://en.wikipedia.org/wiki/Modern_Operating_Systems) (actually a couple of years ago, not recently). And back then it had me scratching my head, pondering it's meaning and I couldn't find a good enough explanation that helped me build an intuitive understanding of it.
 
 Here’s my attempt, for any curious minds out there.
 
